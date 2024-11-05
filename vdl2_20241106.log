@@ -1,0 +1,189 @@
+[2024-11-06 00:00:05 CET] [136.725] [-5.7/-35.2 dBFS] [29.5 dB] [1.9 ppm]
+4CA9CC (Aircraft, Airborne) -> 1199BA (Ground station): Command
+AVLC type: I sseq: 4 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 2 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0xa8f
+   X.224 COTP Data Ack:
+    dst_ref: 0xb57a
+    rseq: 4 credit: 3
+    Checksum: fc eb
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2024-11-06 00:00:06 CET] [136.775] [-14.8/-34.8 dBFS] [20.1 dB] [2.9 ppm]
+4D2529 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 4 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x49 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x37e
+   X.224 COTP Data Ack:
+    dst_ref: 0xf6f7
+    rseq: 0 credit: 1
+    Flow control:
+     Acked TPDU nr: 0
+     Acked subsequence: 0
+     Acked credit: 10
+    ATN checksum: 9d 31 80 d8
+
+[2024-11-06 00:00:22 CET] [136.725] [-5.5/-35.4 dBFS] [29.8 dB] [1.9 ppm]
+4CA9CC (Aircraft, Airborne) -> 1199BA (Ground station): Command
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Initiation
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 84 80
+  VDL params:
+   Parameter set ID: V
+   XID sequencing: seq: 7 retry: 0
+   Destination airport: LEBL
+   Aircraft location: 0.0N 0.0E 0 ft
+   Alternate ground stations: 11984A 11985A 1298AA 1190AA
+   AVLC specific options: 24
+   Connection management: 01
+
+[2024-11-06 00:00:35 CET] [136.775] [-16.0/-35.2 dBFS] [19.2 dB] [2.8 ppm]
+4D2529 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 5 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x4a Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x37f
+   X.224 COTP Data Ack:
+    dst_ref: 0xb581
+    rseq: 6 credit: 3
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 73 58 b8 f6
+
+[2024-11-06 00:01:20 CET] [136.725] [-10.4/-35.9 dBFS] [25.5 dB] [2.2 ppm]
+4CA9CC (Aircraft, Airborne) -> 1199BA (Ground station): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0xa90
+   X.224 COTP Data Ack:
+    dst_ref: 0xb57a
+    rseq: 4 credit: 3
+    Checksum: fc eb
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2024-11-06 00:01:31 CET] [136.775] [-17.9/-35.4 dBFS] [17.5 dB] [2.9 ppm]
+4D2529 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 3 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 7 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x4a Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x384
+   X.224 COTP Disconnect Confirm:
+    src_ref: 0x004f dst_ref: 0xb581
+    ATN checksum: d9 ac b0 50
+
+[2024-11-06 00:01:32 CET] [136.775] [-18.0/-35.3 dBFS] [17.3 dB] [2.9 ppm]
+4D2529 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 4 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x49 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x385
+   X.224 COTP Data Ack:
+    dst_ref: 0xf6f7
+    rseq: 1 credit: 2
+    ATN checksum: 75 5d bc 3f
+
+[2024-11-06 00:02:29 CET] [136.725] [-19.4/-35.6 dBFS] [16.3 dB] [2.0 ppm]
+4CA9CC (Aircraft, Airborne) -> 1199BA (Ground station): Command
+AVLC type: I sseq: 3 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 1 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0xa91
+   X.224 COTP Data Ack:
+    dst_ref: 0xb57a
+    rseq: 5 credit: 3
+    Checksum: fd 9b
+
+[2024-11-06 00:02:29 CET] [136.725] [-19.0/-35.6 dBFS] [16.6 dB] [2.0 ppm]
+4CA9CC (Aircraft, Airborne) -> 1199BA (Ground station): Command
+AVLC type: I sseq: 4 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 2 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0xa92
+   X.224 COTP Data:
+    dst_ref: 0xb57a
+    sseq: 4 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    Checksum: 0f e3
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 4
+      Msg Ref: 5
+      Timestamp: 2024-11-05 23:02:27
+      Logical ACK: notRequired
+     Message data:
+      LOGICAL ACKNOWLEDGMENT
+
+[2024-11-06 00:02:47 CET] [136.775] [-17.9/-35.0 dBFS] [17.1 dB] [3.1 ppm]
+4D2529 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 3 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x49 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x38a
+   X.224 COTP Data Ack:
+    dst_ref: 0xf6f7
+    rseq: 3 credit: 2
+    Flow control:
+     Acked TPDU nr: 3
+     Acked subsequence: 0
+     Acked credit: 10
+    ATN checksum: 43 ba d7 4b
+
+[2024-11-06 00:04:51 CET] [136.775] [-16.0/-35.1 dBFS] [19.1 dB] [2.9 ppm]
+4D2529 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 6 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x49 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x38c
+   X.224 COTP Data Ack:
+    dst_ref: 0xf6f7
+    rseq: 3 credit: 2
+    Flow control:
+     Acked TPDU nr: 3
+     Acked subsequence: 0
+     Acked credit: 10
+    ATN checksum: 43 ba d7 4b
+

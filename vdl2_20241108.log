@@ -1,0 +1,134 @@
+[2024-11-08 00:00:04 CET] [136.775] [-16.4/-36.0 dBFS] [19.6 dB] [1.6 ppm]
+471F9E (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 6 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x44 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x57c
+   X.224 COTP Data Ack:
+    dst_ref: 0xc59a
+    rseq: 5 credit: 3
+    Flow control:
+     Acked TPDU nr: 5
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 12 cc f0 1b
+
+[2024-11-08 00:01:36 CET] [136.775] [-17.7/-35.6 dBFS] [17.9 dB] [1.4 ppm]
+471F9E (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 7 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 7 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x44 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x57d
+   X.224 COTP Data Ack:
+    dst_ref: 0xc59a
+    rseq: 5 credit: 3
+    Flow control:
+     Acked TPDU nr: 5
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 12 cc f0 1b
+
+[2024-11-08 00:03:07 CET] [136.775] [-15.6/-35.5 dBFS] [19.9 dB] [1.4 ppm]
+471F9E (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 0 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x44 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x57e
+   X.224 COTP Data Ack:
+    dst_ref: 0xc59a
+    rseq: 5 credit: 3
+    Flow control:
+     Acked TPDU nr: 5
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 12 cc f0 1b
+
+[2024-11-08 00:03:17 CET] [136.725] [-14.9/-36.1 dBFS] [21.3 dB] [1.1 ppm]
+39A207 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 3 rseq: 3 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .F-HIQH Flight: 5O03LS
+  Mode: 2 Label: 16 Blk id: 2 More: 0 Ack: ! Msg num: M47A
+  Message:
+   230316,33660,0002, 102,N 44.581 E  5.048
+
+[2024-11-08 00:03:55 CET] [136.775] [-17.9/-35.3 dBFS] [17.3 dB] [1.2 ppm]
+471F9E (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 2 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x44 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x580
+   X.224 COTP Data Ack:
+    dst_ref: 0xc59a
+    rseq: 6 credit: 3
+    ATN checksum: b7 35 55 5a
+   X.224 COTP Data:
+    dst_ref: 0xc59a
+    sseq: 5 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    ATN checksum: 03 f6 33 e3
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 5
+      Msg Ref: 7
+      Timestamp: 2024-11-07 23:03:54
+      Logical ACK: notRequired
+     Message data:
+      LOGICAL ACKNOWLEDGMENT
+
+[2024-11-08 00:04:01 CET] [136.775] [-20.7/-35.7 dBFS] [15.0 dB] [1.3 ppm]
+471F9E (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 3 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x44 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x581
+   X.224 COTP Data:
+    dst_ref: 0xc59a
+    sseq: 6 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    ATN checksum: 92 b2 01 24
+    X.227 ACSE Release Response:
+     Reason: normal
+     CPDLC Downlink Message:
+      Header:
+       Msg ID: 6
+       Msg Ref: 7
+       Timestamp: 2024-11-07 23:03:59
+       Logical ACK: notRequired
+      Message data:
+       WILCO
+
+[2024-11-08 00:04:32 CET] [136.725] [-18.6/-36.5 dBFS] [17.9 dB] [2.7 ppm]
+3444C8 (Aircraft, Airborne) -> 11905A (Ground station): Command
+AVLC type: I sseq: 4 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x15e
+   X.224 COTP Data Ack:
+    dst_ref: 0xc5a1
+    rseq: 2 credit: 2
+    Flow control:
+     Acked TPDU nr: 2
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 4c 45 6d d0
+

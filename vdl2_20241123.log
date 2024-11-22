@@ -1,0 +1,110 @@
+[2024-11-23 00:00:35 CET] [136.725] [-10.5/-30.7 dBFS] [20.2 dB] [1.2 ppm]
+49D2B9 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 3 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x1 Prio: 8 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x111
+   X.224 COTP Connect Request:
+    src_ref: 0xfc0d dst_ref: 0x0000
+    Initial Credit: 1
+    Protocol class: 4
+    Options: 00 (use normal PDU formats)
+    TPDU size (bytes): 1024
+    Called/responding transport selector: 63 6d
+    Calling transport selector: 43 4d
+    Priority: 6
+    Additional options: 0x00
+    Ack time (ms): 1000
+    Inactivity timer (ms): 360000
+    Checksum: 51 de
+    ATN checksum: 20 69 df 01
+
+[2024-11-23 00:01:06 CET] [136.775] [-4.0/-30.7 dBFS] [26.7 dB] [2.8 ppm]
+4D00F3 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 0 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 8 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x23b
+   X.224 COTP Disconnect Request:
+    src_ref: 0x4d56 dst_ref: 0x0000
+    Reason: 128 (Normal disconnect)
+    Checksum: 47 43
+    X.225 disconnect reason: 1 (OK, transport connection not reused)
+
+[2024-11-23 00:01:59 CET] [136.775] [-11.4/-31.0 dBFS] [19.6 dB] [2.8 ppm]
+4D00F3 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 2 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x1 Prio: 8 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x23d
+   X.224 COTP Disconnect Request:
+    src_ref: 0x4d57 dst_ref: 0x0000
+    Reason: 128 (Normal disconnect)
+    Checksum: 42 47
+    X.225 disconnect reason: 1 (OK, transport connection not reused)
+
+[2024-11-23 00:02:01 CET] [136.775] [-10.7/-30.8 dBFS] [20.0 dB] [2.7 ppm]
+4D00F3 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 3 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 8 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x23e
+   X.224 COTP Disconnect Request:
+    src_ref: 0x4d55 dst_ref: 0x0000
+    Reason: 128 (Normal disconnect)
+    Checksum: 4c 3f
+    X.225 disconnect reason: 1 (OK, transport connection not reused)
+
+[2024-11-23 00:02:12 CET] [136.725] [-12.7/-30.8 dBFS] [18.1 dB] [2.8 ppm]
+040203 (Aircraft, Airborne) -> 11905A (Ground station): Command
+AVLC type: I sseq: 7 rseq: 7 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .ET-AYM Flight: ET0553
+  Mode: 2 Label: 80 Blk id: 3 More: 0 Ack: ! Msg num: M68A
+  Message:
+   POSCYYZ/HAAB/LATN44321/LONE004597/ALT370/FOB39324
+   /TME2302/WND -44 91/OAT-62/TAS479/ETA0434
+
+[2024-11-23 00:03:57 CET] [136.775] [-11.8/-30.8 dBFS] [18.9 dB] [2.8 ppm]
+4D00F3 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 4 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x2 Prio: 8 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x23f
+   X.224 COTP Disconnect Request:
+    src_ref: 0x4d59 dst_ref: 0x0000
+    Reason: 128 (Normal disconnect)
+    Checksum: 38 4f
+    X.225 disconnect reason: 1 (OK, transport connection not reused)
+
+[2024-11-23 00:04:03 CET] [136.775] [-13.2/-31.0 dBFS] [17.8 dB] [2.8 ppm]
+4D00F3 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 5 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 7 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x2 Prio: 8 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x240
+   X.224 COTP Disconnect Request:
+    src_ref: 0x4d58 dst_ref: 0x0000
+    Reason: 128 (Normal disconnect)
+    Checksum: 3d 4b
+    X.225 disconnect reason: 1 (OK, transport connection not reused)
+

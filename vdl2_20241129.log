@@ -1,0 +1,10 @@
+[2024-11-29 00:02:18 CET] [136.975] [0.3/-29.8 dBFS] [30.1 dB] [2.8 ppm]
+4CAE62 (Aircraft, Airborne) -> 10F69B (Ground station): Command
+AVLC type: I sseq: 6 rseq: 0 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .EI-IJM Flight: FR32XB
+  Mode: 2 Label: 16 Blk id: 4 More: 0 Ack: ! Msg num: M81A
+  Message:
+   230216,39005,2347,  94,N 43.387 E  5.988
+

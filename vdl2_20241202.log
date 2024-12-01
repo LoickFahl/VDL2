@@ -1,0 +1,192 @@
+[2024-12-02 00:00:43 CET] [136.725] [-0.1/-31.0 dBFS] [30.9 dB] [2.6 ppm]
+4D21FC (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 6 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x198b
+   X.224 COTP Data Ack:
+    dst_ref: 0x2b4c
+    rseq: 4 credit: 3
+    Checksum: 23 7e
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2024-12-02 00:02:05 CET] [136.975] [0.8/-30.9 dBFS] [31.7 dB] [-2.1 ppm]
+3C6444 (Aircraft, Airborne) -> 10907A (Ground station): Command
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Initiation
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 80
+  VDL params:
+   Parameter set ID: V
+   Connection management: 01
+   XID sequencing: seq: 0 retry: 0
+   AVLC specific options: 25
+   Destination airport: LFML
+   Aircraft location: 43.4N 5.2E 8000 ft
+
+[2024-12-02 00:02:10 CET] [136.775] [-10.7/-30.6 dBFS] [20.0 dB] [3.2 ppm]
+4D200C (Aircraft, Airborne) -> 210DC5 (Ground station): Command
+AVLC type: I sseq: 2 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x3da
+   X.224 COTP Data Ack:
+    dst_ref: 0x2b4d
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: a8 8e d5 53
+
+[2024-12-02 00:02:17 CET] [136.975] [-0.9/-31.2 dBFS] [30.3 dB] [-1.9 ppm]
+3C6444 (Aircraft, Airborne) -> 10907A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 2 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .D-AIBD Flight: LH046V
+  Mode: 2 Label: 1L Blk id: 1 More: 0 Ack: ! Msg num: M22A
+  Message:
+   00017209234NM*4IJ,SSK+J(Y(30212DH(++7HHP,YK7,U7353Y+D+
+
+[2024-12-02 00:03:42 CET] [136.775] [-4.3/-31.3 dBFS] [27.0 dB] [3.1 ppm]
+4D200C (Aircraft, Airborne) -> 210DC5 (Ground station): Command
+AVLC type: I sseq: 4 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x3db
+   X.224 COTP Data Ack:
+    dst_ref: 0x2b4d
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: a8 8e d5 53
+
+[2024-12-02 00:03:45 CET] [136.775] [-5.3/-30.5 dBFS] [25.3 dB] [3.0 ppm]
+4D200C (Aircraft, Airborne) -> 210DC5 (Ground station): Command
+AVLC type: I sseq: 4 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x3db
+   X.224 COTP Data Ack:
+    dst_ref: 0x2b4d
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: a8 8e d5 53
+
+[2024-12-02 00:03:46 CET] [136.775] [-4.2/-30.9 dBFS] [26.7 dB] [3.3 ppm]
+4D200C (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Initiation
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 80
+  VDL params:
+   Parameter set ID: V
+   Connection management: 01
+   XID sequencing: seq: 5 retry: 0
+   AVLC specific options: 25
+   Destination airport: LBSF
+   Aircraft location: 43.0N 6.1E 35000 ft
+
+[2024-12-02 00:03:47 CET] [136.725] [-7.3/-31.0 dBFS] [23.7 dB] [2.5 ppm]
+4D21FC (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 1 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 7 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x198e
+   X.224 COTP Data Ack:
+    dst_ref: 0x2b4c
+    rseq: 4 credit: 3
+    Checksum: 23 7e
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2024-12-02 00:05:14 CET] [136.775] [-13.9/-31.0 dBFS] [17.2 dB] [3.1 ppm]
+4D200C (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x3dc
+   X.224 COTP Data Ack:
+    dst_ref: 0x2b4d
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: a8 8e d5 53
+
+[2024-12-02 00:05:28 CET] [136.725] [-14.0/-31.9 dBFS] [17.9 dB] [2.5 ppm]
+4D21FC (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 3 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x1990
+   X.224 COTP Data Ack:
+    dst_ref: 0x2b4c
+    rseq: 5 credit: 3
+    Checksum: 24 2e
+
+[2024-12-02 00:05:34 CET] [136.725] [-9.0/-31.9 dBFS] [22.9 dB] [2.2 ppm]
+4D21FC (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 5 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x1992
+   X.224 COTP Connect Confirm:
+    src_ref: 0x001f dst_ref: 0x8280
+    Initial Credit: 1
+    Protocol class: 4
+    Options: 00 (use normal PDU formats)
+    Calling transport selector: 70 6d
+    Called/responding transport selector: 02 02
+    TPDU size (bytes): 1024
+    Checksum: 3d 3c
+    Additional options: 0x00
+    Ack time (ms): 1000
+    Priority: 3
+    Inactivity timer (ms): 360000
+    X.225 Session SPDU: Short Accept
+     X.227 ACSE Associate Response:
+      Application context name: { 1.3.27.3.1 }
+      Associate result: accept
+      ATCDownlinkMessage: <empty PDU>
+

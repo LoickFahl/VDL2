@@ -1,0 +1,18 @@
+[2024-12-04 00:03:44 CET] [136.725] [-6.7/-31.5 dBFS] [24.8 dB] [0.9 ppm]
+4CADB7 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 3 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x48 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x12ea
+   X.224 COTP Data Ack:
+    dst_ref: 0xd405
+    rseq: 2 credit: 2
+    Checksum: 90 b3
+    Flow control:
+     Acked TPDU nr: 2
+     Acked subsequence: 0
+     Acked credit: 15
+

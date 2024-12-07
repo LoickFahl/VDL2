@@ -1,0 +1,125 @@
+[2024-12-08 00:01:05 CET] [136.975] [-3.3/-30.0 dBFS] [26.7 dB] [0.2 ppm]
+34560D (Aircraft, Airborne) -> 10FA5A (Ground station): Command
+AVLC type: I sseq: 0 rseq: 0 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .EC-MVD Flight: VY43ZK
+  Mode: 2 Label: H1 Blk id: 8 More: 0 Ack: ! Msg num: F60A
+  Sublabel: M1
+  Message:
+   RESPWI/AK,071/TS230104,071224BDC1
+
+[2024-12-08 00:01:39 CET] [136.725] [-0.3/-29.8 dBFS] [29.5 dB] [2.3 ppm]
+4CA7B5 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 2 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .EI-EFZ Flight: FR33RK
+  Mode: 2 Label: 16 Blk id: 4 More: 0 Ack: ! Msg num: M99A
+  Message:
+   230137,,2342, 102,N   .    MMMM.MMM
+
+[2024-12-08 00:02:58 CET] [136.975] [-2.1/-29.5 dBFS] [27.5 dB] [-0.3 ppm]
+34560D (Aircraft, Airborne) -> 10985A (Ground station): Command
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Initiation
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 80
+  VDL params:
+   Parameter set ID: V
+   Connection management: 01
+   XID sequencing: seq: 6 retry: 0
+   AVLC specific options: 25
+   Destination airport: LEBL
+   Aircraft location: 43.4N 5.8E 34000 ft
+
+[2024-12-08 00:02:59 CET] [136.975] [-3.0/-29.5 dBFS] [26.5 dB] [-0.1 ppm]
+34560D (Aircraft, Airborne) -> 10985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x82
+   IDRP Open: seq: 1 ack: 1 credit_offered: 3 credit_avail: 4
+    Hold Time: 900 seconds
+    Max. PDU size: 3000 octets
+    Source RDI: 47 00 27 41 56 4c 47 00 34 56 0d	"G.'AVLG.4V."
+    RIB Attribute Set:
+     RibAtt #0:
+      Security:
+       Reg ID: 06 04 2b 1b 00 00
+    Auth mechanism: simple checksum
+
+[2024-12-08 00:03:00 CET] [136.975] [-2.3/-30.1 dBFS] [27.8 dB] [-0.1 ppm]
+34560D (Aircraft, Airborne) -> 10985A (Ground station): Command
+AVLC type: I sseq: 3 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x83
+   IDRP Update: seq: 2 ack: 1 credit_offered: 3 credit_avail: 3
+    Route:
+     ID: 5
+     Local preference: 0
+    RD path:
+     RD_SEQ:
+      47 00 27 41 56 4c 47 00 34 56 0d	"G.'AVLG.4V."
+    RD hop count: 1
+    Capacity: 13
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 88
+     Dest. address prefix: 47 00 27 41 56 4c 47 00 34 56 0d	"G.'AVLG.4V."
+
+[2024-12-08 00:03:00 CET] [136.975] [-2.3/-30.1 dBFS] [27.8 dB] [-0.1 ppm]
+34560D (Aircraft, Airborne) -> 10985A (Ground station): Command
+AVLC type: I sseq: 4 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x84
+   IDRP Update: seq: 3 ack: 1 credit_offered: 3 credit_avail: 2
+    Route:
+     ID: 6
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: all
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 41 56 4c 47 00 34 56 0d	"G.'AVLG.4V."
+    RD hop count: 1
+    Capacity: 13
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 88
+     Dest. address prefix: 47 00 27 41 56 4c 47 00 34 56 0d	"G.'AVLG.4V."
+
+[2024-12-08 00:03:25 CET] [136.725] [0.1/-29.6 dBFS] [29.7 dB] [-0.2 ppm]
+34560D (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Initiation
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 80
+  VDL params:
+   Parameter set ID: V
+   Connection management: 01
+   XID sequencing: seq: 7 retry: 0
+   AVLC specific options: 25
+   Destination airport: LEBL
+   Aircraft location: 43.3N 5.7E 34000 ft
+

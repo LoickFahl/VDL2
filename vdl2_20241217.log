@@ -1,0 +1,63 @@
+[2024-12-17 00:04:10 CET] [136.725] [-9.1/-30.4 dBFS] [21.3 dB] [4.9 ppm]
+4D225E (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 4 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 1 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x65e
+   X.224 COTP Data Ack:
+    dst_ref: 0x7dcc
+    rseq: 3 credit: 2
+    Checksum: c2 bf
+
+[2024-12-17 00:04:11 CET] [136.725] [-8.9/-30.1 dBFS] [21.2 dB] [5.0 ppm]
+4D225E (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 5 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 2 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x65f
+   X.224 COTP Data:
+    dst_ref: 0x7dcc
+    sseq: 2 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    Checksum: 63 b3
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 2
+      Msg Ref: 3
+      Timestamp: 2024-12-16 23:04:09
+      Logical ACK: notRequired
+     Message data:
+      LOGICAL ACKNOWLEDGMENT
+
+[2024-12-17 00:04:19 CET] [136.725] [-12.4/-30.2 dBFS] [17.8 dB] [4.9 ppm]
+4D225E (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 7 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 4 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x661
+   X.224 COTP Data Ack:
+    dst_ref: 0x7dcc
+    rseq: 4 credit: 3
+    Checksum: b7 c8
+
+[2024-12-17 00:04:40 CET] [136.775] [-3.7/-29.7 dBFS] [26.0 dB] [-1.6 ppm]
+A49375 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 1 rseq: 1 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .N394UP Flight: UP0243
+  Mode: 2 Label: H1 Blk id: 5 More: 0 Ack: ! Msg num: D48A
+  Sublabel: DF
+  Message:
+   *POS
+   12162304N4349E00613320298031820M4610345
+

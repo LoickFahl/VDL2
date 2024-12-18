@@ -1,0 +1,11 @@
+[2024-12-19 00:01:33 CET] [136.725] [-11.6/-31.1 dBFS] [19.5 dB] [1.4 ppm]
+040241 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 6 rseq: 3 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .ET-BAX Flight: ET0501
+  Mode: 2 Label: H1 Blk id: 0 More: 0 Ack: ! Msg num: F97A
+  Sublabel: M1
+  Message:
+   REJPWI,230132,101,,001,/TS230132,1812248E0F
+

@@ -1,0 +1,88 @@
+[2024-12-22 00:01:41 CET] [136.725] [-6.1/-31.3 dBFS] [25.1 dB] [2.5 ppm]
+4D21A2 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 1 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x17d
+   X.224 COTP Data Ack:
+    dst_ref: 0xae81
+    rseq: 2 credit: 2
+    Flow control:
+     Acked TPDU nr: 2
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 13 07 7d b8
+
+[2024-12-22 00:03:13 CET] [136.725] [-8.3/-31.2 dBFS] [22.9 dB] [2.3 ppm]
+4D21A2 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x17e
+   X.224 COTP Data Ack:
+    dst_ref: 0xae81
+    rseq: 2 credit: 2
+    Flow control:
+     Acked TPDU nr: 2
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 13 07 7d b8
+
+[2024-12-22 00:04:15 CET] [136.775] [-9.6/-31.4 dBFS] [21.9 dB] [0.6 ppm]
+710119 (Aircraft, Airborne) -> 233925 (Ground station): Response
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Response
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   XID sequencing: seq: 5 retry: 0
+   Destination airport: OERK
+   Aircraft location: 44.1N 5.2E 255000 ft
+   AVLC specific options: 24
+   Connection management: 01
+
+[2024-12-22 00:04:45 CET] [136.725] [-8.8/-31.5 dBFS] [22.7 dB] [1.9 ppm]
+4D21A2 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 3 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x17f
+   X.224 COTP Data Ack:
+    dst_ref: 0xae81
+    rseq: 2 credit: 2
+    Flow control:
+     Acked TPDU nr: 2
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 13 07 7d b8
+
+[2024-12-22 00:06:17 CET] [136.725] [-2.1/-31.5 dBFS] [29.4 dB] [1.5 ppm]
+4D21A2 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 5 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 7 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x181
+   X.224 COTP Data Ack:
+    dst_ref: 0xae81
+    rseq: 2 credit: 2
+    Flow control:
+     Acked TPDU nr: 2
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 13 07 7d b8
+

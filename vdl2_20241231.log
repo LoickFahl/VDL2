@@ -1,0 +1,171 @@
+[2024-12-31 00:00:41 CET] [136.775] [-12.3/-29.7 dBFS] [17.5 dB] [2.1 ppm]
+4D2493 (Aircraft, Airborne) -> 2198A5 (Ground station): Command
+AVLC type: I sseq: 5 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x1aa
+   X.224 COTP Data Ack:
+    dst_ref: 0x1b98
+    rseq: 10 credit: 4
+    ATN checksum: 65 77 19 4e
+
+[2024-12-31 00:01:07 CET] [136.775] [-2.6/-29.7 dBFS] [27.1 dB] [-0.0 ppm]
+47875A (Aircraft, Airborne) -> 23D825 (Ground station): Command
+AVLC type: I sseq: 3 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x4c Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x25b
+   X.224 COTP Data Ack:
+    dst_ref: 0x1b97
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 9b 15 2d c2
+
+[2024-12-31 00:01:44 CET] [136.775] [-10.7/-29.7 dBFS] [19.1 dB] [0.1 ppm]
+47875A (Aircraft, Airborne) -> 210DC5 (Ground station): Command
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Initiation
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   Connection management: 05
+   XID sequencing: seq: 3 retry: 1
+   AVLC specific options: 25
+   Destination airport: LEBL
+
+[2024-12-31 00:02:01 CET] [136.775] [-10.7/-29.8 dBFS] [19.1 dB] [2.2 ppm]
+4D2493 (Aircraft, Airborne) -> 23D825 (Ground station): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x44 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x1ac
+   X.224 COTP Data Ack:
+    dst_ref: 0x4ef6
+    rseq: 0 credit: 1
+    Flow control:
+     Acked TPDU nr: 0
+     Acked subsequence: 0
+     Acked credit: 10
+    ATN checksum: 1c 7d 7c 52
+
+[2024-12-31 00:02:06 CET] [136.775] [-0.1/-30.0 dBFS] [29.9 dB] [-0.1 ppm]
+47875A (Aircraft, Airborne) -> 23D825 (Ground station): Response
+AVLC type: U (DM) P/F: 0
+
+[2024-12-31 00:02:38 CET] [136.775] [-2.7/-29.8 dBFS] [27.1 dB] [-0.2 ppm]
+47875A (Aircraft, Airborne) -> 210DC5 (Ground station): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x4c Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x25c
+   X.224 COTP Data Ack:
+    dst_ref: 0x1b97
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 9b 15 2d c2
+
+[2024-12-31 00:02:40 CET] [136.775] [-11.6/-29.6 dBFS] [18.0 dB] [2.3 ppm]
+4D2493 (Aircraft, Airborne) -> 23D825 (Ground station): Command
+AVLC type: I sseq: 1 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x45 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x1af
+   X.224 COTP Disconnect Confirm:
+    src_ref: 0x0048 dst_ref: 0x907c
+    ATN checksum: a5 97 70 ab
+
+[2024-12-31 00:02:42 CET] [136.775] [-1.7/-29.8 dBFS] [28.1 dB] [-0.0 ppm]
+47875A (Aircraft, Airborne) -> 210DC5 (Ground station): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x4c Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x25c
+   X.224 COTP Data Ack:
+    dst_ref: 0x1b97
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 9b 15 2d c2
+
+[2024-12-31 00:04:05 CET] [136.775] [-0.1/-29.6 dBFS] [29.5 dB] [-0.3 ppm]
+47875A (Aircraft, Airborne) -> 210DC5 (Ground station): Command
+AVLC type: I sseq: 4 rseq: 4 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .LN-DYT Flight: D85503
+  Mode: 2 Label: 80 Blk id: 2 More: 0 Ack: ! Msg num: M43A
+  Message:
+   3401 ETA    5503/30 ESSA/LEBL .LN-DYT
+   /ETA 2345/FOB 0424
+   HOLA. 1 UC
+   BONA NIT
+
+[2024-12-31 00:04:10 CET] [136.775] [0.1/-29.8 dBFS] [29.9 dB] [-0.4 ppm]
+47875A (Aircraft, Airborne) -> 210DC5 (Ground station): Command
+AVLC type: I sseq: 5 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x4c Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x25e
+   X.224 COTP Data Ack:
+    dst_ref: 0x1b97
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 9b 15 2d c2
+
+[2024-12-31 00:04:27 CET] [136.975] [1.1/-30.2 dBFS] [31.2 dB] [2.6 ppm]
+717C92 (Aircraft, Airborne) -> 26CA77 (Ground station): Command
+AVLC type: I sseq: 3 rseq: 0 poll: 0
+ ACARS:
+  Reassembly: in progress
+  Reg: HZ-NS72 Flight: XY0660
+  Mode: 2 Label: H1 Blk id: 3 More: 1 Ack: ! Msg num: D44A
+  Sublabel: DF
+  Message:
+   A320,000779,1,1,TB000000/REP004,65,01,1/CCZ-NS72,DEC30,230133,LFML,OEJN,0660/C0SF019040010013/C105,85210,4000,00,0110,0,0110,00,X/CE0097,00024,175,265,6838,299,F22001/C22500M34P08/C32590M00P13/C42590M01P10/C52474M65P08/C62500M34P08/C72590M00P13/C82590M01P10/C92474M65P08/D159B817,00158,00075,03186,0054,0099/D259B818,00158,00075,03139,0053,0099/F101,00,00,01,00,00,00,00,00/G104,00072,0045,N0001,23,00008,0033/H108400,08464,10444,08499,08726,08458/I103336,08807,08743,08794,08804,08729/J108809,08862,08780,00755,0451,00,110/K11665,51627,027,5807,0013,0013,0013/L10041,0077,0595,1476,00098,0982,0166/M11549,N0003,00022,084,N0004,0683,XXXX/N10012,0703,00002,0040,0807,1150,0897/P1N006,0083,N0125,174,263,00,042/Q102000,00800,040A4,00000,10000,00810/R104208,00000,00000,02308,00000,00080/S12119F,00000,00011,00000,00800,00000/T100000,00000,10009,00000,00000,00000/U100000,00000,00000,00000,00000,00000/V100000,00000,00000,00000,00000,00000/W100000,00000,00000,00000,00000,00000/X100000/F201,00,00,
+
+[2024-12-31 00:04:28 CET] [136.975] [1.1/-29.9 dBFS] [31.0 dB] [2.8 ppm]
+717C92 (Aircraft, Airborne) -> 26CA77 (Ground station): Command
+AVLC type: I sseq: 4 rseq: 1 poll: 0
+ ACARS:
+  Reassembly: complete
+  Reg: HZ-NS72 Flight: XY0660
+  Mode: 2 Label: H1 Blk id: 4 More: 0 Ack: ! Msg num: D44B
+  Sublabel: DF
+  Message:
+   A320,000779,1,1,TB000000/REP004,65,01,1/CCZ-NS72,DEC30,230133,LFML,OEJN,0660/C0SF019040010013/C105,85210,4000,00,0110,0,0110,00,X/CE0097,00024,175,265,6838,299,F22001/C22500M34P08/C32590M00P13/C42590M01P10/C52474M65P08/C62500M34P08/C72590M00P13/C82590M01P10/C92474M65P08/D159B817,00158,00075,03186,0054,0099/D259B818,00158,00075,03139,0053,0099/F101,00,00,01,00,00,00,00,00/G104,00072,0045,N0001,23,00008,0033/H108400,08464,10444,08499,08726,08458/I103336,08807,08743,08794,08804,08729/J108809,08862,08780,00755,0451,00,110/K11665,51627,027,5807,0013,0013,0013/L10041,0077,0595,1476,00098,0982,0166/M11549,N0003,00022,084,N0004,0683,XXXX/N10012,0703,00002,0040,0807,1150,0897/P1N006,0083,N0125,174,263,00,042/Q102000,00800,040A4,00000,10000,00810/R104208,00000,00000,02308,00000,00080/S12119F,00000,00011,00000,00800,00000/T100000,00000,10009,00000,00000,00000/U100000,00000,00000,00000,00000,00000/V100000,00000,00000,00000,00000,00000/W100000,00000,00000,00000,00000,00000/X100000/F201,00,00,01,00,00,00,00,00/G204,00073,0045,N0000,23,00008,0011/H208375,08465,10419,08499,08742,08459/I203347,08551,08604,08886,09077,08883/J208733,08830,08882,00740,0451,00,165/K21665,51362,019,5939,0021,0077,0010/L20024,0077,0584,1476,00099,0893,0166/M21560,00000,00015,013,N0006,0680,XXXX/N20004,0698,N0000,0016,0911,1160,0892/P2N008,0083,N0125,174,263,00,043/Q202000,00800,040A4,00000,10000,00810/R204208,00000,00000,02308,00000,00080/S22119F,00000,00011,00000,00800,00000/T200000,00000,10009,00000,00000,00000/U200000,00000,00000,00000,00000,00000/V200000,00000,00000,00000,00000,00000/W200000,00000,00000,00000,00000,00000/X200000/:
+

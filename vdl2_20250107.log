@@ -1,0 +1,72 @@
+[2025-01-07 00:00:58 CET] [136.725] [-9.4/-29.7 dBFS] [20.3 dB] [4.0 ppm]
+4D2286 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 1 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x1057
+   X.224 COTP Data Ack:
+    dst_ref: 0x6272
+    rseq: 2 credit: 2
+    Checksum: 1c 2d
+    Flow control:
+     Acked TPDU nr: 2
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-01-07 00:02:30 CET] [136.725] [-9.2/-30.0 dBFS] [20.8 dB] [4.2 ppm]
+4D2286 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x1058
+   X.224 COTP Data Ack:
+    dst_ref: 0x6272
+    rseq: 2 credit: 2
+    Checksum: 1c 2d
+    Flow control:
+     Acked TPDU nr: 2
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-01-07 00:04:02 CET] [136.725] [-7.8/-29.4 dBFS] [21.7 dB] [4.3 ppm]
+4D2286 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 7 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x105a
+   X.224 COTP Data Ack:
+    dst_ref: 0x6272
+    rseq: 2 credit: 2
+    Checksum: 1c 2d
+    Flow control:
+     Acked TPDU nr: 2
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-01-07 00:05:34 CET] [136.725] [-7.5/-30.2 dBFS] [22.7 dB] [4.2 ppm]
+4D2286 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x105b
+   X.224 COTP Data Ack:
+    dst_ref: 0x6272
+    rseq: 2 credit: 2
+    Checksum: 1c 2d
+    Flow control:
+     Acked TPDU nr: 2
+     Acked subsequence: 0
+     Acked credit: 15
+

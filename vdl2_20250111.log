@@ -1,0 +1,220 @@
+[2025-01-11 00:01:11 CET] [136.725] [0.9/-30.3 dBFS] [31.2 dB] [2.9 ppm]
+4D222D (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 6 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x157
+   X.224 COTP Data Ack:
+    dst_ref: 0x82d5
+    rseq: 4 credit: 3
+    Checksum: 67 59
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-01-11 00:02:24 CET] [136.975] [-4.3/-30.7 dBFS] [26.4 dB] [3.5 ppm]
+4CAD0F (Aircraft, Airborne) -> 10907A (Ground station): Command
+AVLC type: I sseq: 0 rseq: 0 poll: 0
+ ACARS:
+  Reassembly: in progress
+  Reg: .EI-HGW Flight: FRRYR3
+  Mode: 2 Label: H1 Blk id: 8 More: 1 Ack: ! Msg num: D30A
+  Sublabel: DF
+  Message:
+   B43A
+   EI-HGW 10213BG LFRSLFMLER10012237
+    148 59460A42860A274BCG3A-L200-0002
+    32995 1189253350430719 -340 -565139760
+   PRI22375610028 458516   19882  -36     7142880
+    32991251950090716 -343 -565
+   OFFOFFAUT
+
+[2025-01-11 00:02:26 CET] [136.975] [-5.5/-30.1 dBFS] [24.6 dB] [3.6 ppm]
+4CAD0F (Aircraft, Airborne) -> 10907A (Ground station): Command
+AVLC type: I sseq: 1 rseq: 1 poll: 0
+ ACARS:
+  Reassembly: in progress
+  Reg: .EI-HGW Flight: FRRYR3
+  Mode: 2 Label: H1 Blk id: 9 More: 1 Ack: ! Msg num: D30B
+  Sublabel: DF
+  Message:
+   OAUTOCLOSED110001ON 
+    7609 7669 7666 8355 9738 97705880 6400
+    6455 6516 6538 6520 380 368015581685
+    6672 6351 6285 6379-336  954300
+    1962 1989 1989  04 695 592 592 0
+    2910 2913 1753 1750 -013
+    489 501
+
+[2025-01-11 00:02:28 CET] [136.975] [-7.2/-30.5 dBFS] [23.3 dB] [3.5 ppm]
+4CAD0F (Aircraft, Airborne) -> 10907A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 2 poll: 0
+ ACARS:
+  Reassembly: in progress
+  Reg: .EI-HGW Flight: FRRYR3
+  Mode: 2 Label: H1 Blk id: 0 More: 1 Ack: ! Msg num: D30C
+  Sublabel: DF
+  Message:
+    500  00 -02 00029007
+   005011024 017 68 815 102161  0
+   018CE0000000000349C500000100007F0010000000803000000678018180000100000000000000000000000000
+   00000000000000000000000000000000000000000000000000000000000
+
+[2025-01-11 00:02:29 CET] [136.725] [0.6/-30.5 dBFS] [31.2 dB] [2.4 ppm]
+4D222D (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 7 rseq: 7 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .9H-QDB Flight: FR87YJ
+  Mode: 2 Label: 16 Blk id: 9 More: 0 Ack: ! Msg num: M55A
+  Message:
+   230227,,2349,  98,N   .    MMMM.MMM
+
+[2025-01-11 00:02:33 CET] [136.975] [-6.4/-29.9 dBFS] [23.5 dB] [3.7 ppm]
+4CAD0F (Aircraft, Airborne) -> 10907A (Ground station): Command
+AVLC type: I sseq: 5 rseq: 5 poll: 0
+ ACARS:
+  Reassembly: out of sequence
+  Reg: .EI-HGW Flight: FRRYR3
+  Mode: 2 Label: H1 Blk id: 3 More: 1 Ack: ! Msg num: D30F
+  Sublabel: DF
+  Message:
+   08012 014 65 825 127179  0
+   018CE00000000003494500000200007F0010000000808000000678018180000100000000000000000000000000
+   00000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+[2025-01-11 00:02:35 CET] [136.975] [-5.4/-30.7 dBFS] [25.3 dB] [3.5 ppm]
+4CAD0F (Aircraft, Airborne) -> 10907A (Ground station): Command
+AVLC type: I sseq: 6 rseq: 6 poll: 0
+ ACARS:
+  Reassembly: out of sequence
+  Reg: .EI-HGW Flight: FRRYR3
+  Mode: 2 Label: H1 Blk id: 4 More: 0 Ack: ! Msg num: D30G
+  Sublabel: DF
+  Message:
+   00000000000000000000000000007F
+    7609 9738 6400 1962 2910007005 68
+
+[2025-01-11 00:02:43 CET] [136.725] [0.8/-30.2 dBFS] [31.1 dB] [2.4 ppm]
+4D222D (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x158
+   X.224 COTP Data Ack:
+    dst_ref: 0x82d5
+    rseq: 4 credit: 3
+    Checksum: 67 59
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-01-11 00:02:53 CET] [136.775] [-6.2/-29.9 dBFS] [23.7 dB] [3.9 ppm]
+4CA961 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Initiation
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   XID sequencing: seq: 2 retry: 0
+   Destination airport: GOBD
+   Aircraft location: 43.6N 6.4E 32000 ft
+   Alternate ground stations: 2654E5 2625C6 23D825 2B0CA6 222545
+   AVLC specific options: 24
+   Connection management: 01
+
+[2025-01-11 00:02:56 CET] [136.775] [-5.2/-30.3 dBFS] [25.2 dB] [3.8 ppm]
+4CA961 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 2 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x6ac
+   IDRP Open: seq: 1 ack: 2 credit_offered: 5 credit_avail: 3
+    Hold Time: 900 seconds
+    Max. PDU size: 3000 octets
+    Source RDI: 47 00 27 41 4e 4f 53 00 4c a9 61	"G.'ANOS.L.a"
+    RIB Attribute Set:
+     RibAtt #0:
+      Security:
+       Reg ID: 06 04 2b 1b 00 00
+    Auth mechanism: simple checksum
+
+[2025-01-11 00:02:58 CET] [136.775] [-5.0/-29.7 dBFS] [24.6 dB] [4.0 ppm]
+4CA961 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 4 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x6ad
+   IDRP Update: seq: 2 ack: 3 credit_offered: 5 credit_avail: 3
+    Route:
+     ID: 2
+     Local preference: 0
+    RD path:
+     RD_SEQ:
+      47 00 27 41 4e 4f 53 00 4c a9 61	"G.'ANOS.L.a"
+    RD hop count: 1
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: all
+    Capacity: 13
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 88
+     Dest. address prefix: 47 00 27 41 4e 4f 53 00 4c a9 61	"G.'ANOS.L.a"
+
+[2025-01-11 00:04:18 CET] [136.725] [-10.5/-30.3 dBFS] [19.9 dB] [2.6 ppm]
+4D222D (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 1 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x159
+   X.224 COTP Data Ack:
+    dst_ref: 0x82d5
+    rseq: 4 credit: 3
+    Checksum: 67 59
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-01-11 00:05:44 CET] [136.775] [0.7/-30.2 dBFS] [30.9 dB] [3.8 ppm]
+4CA961 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 5 rseq: 0 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .EI-RZC Flight: NO5420
+  Mode: 2 Label: 16 Blk id: 1 More: 0 Ack: ! Msg num: M73A
+  Message:
+   230542,32992,0401, 320,N 43.499 E  6.077
+
+[2025-01-11 00:05:49 CET] [136.975] [-0.2/-30.7 dBFS] [30.5 dB] [2.7 ppm]
+4CAD0F (Aircraft, Airborne) -> 10907A (Ground station): Command
+AVLC type: I sseq: 7 rseq: 7 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .EI-HGW Flight: FRRYR3
+  Mode: 2 Label: 16 Blk id: 5 More: 0 Ack: ! Msg num: M62A
+  Message:
+   230546,9462,2314,  70,N 43.480 E  5.229
+

@@ -1,0 +1,26 @@
+[2025-01-17 00:01:29 CET] [136.975] [-9.4/-29.6 dBFS] [20.2 dB] [1.1 ppm]
+02A261 (Aircraft, Airborne) -> 266677 (Ground station): Command
+AVLC type: I sseq: 4 rseq: 7 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .TS-ITB Flight: TU0851
+  Mode: 2 Label: 58 Blk id: 1 More: 0 Ack: ! Msg num: M59A
+  Message:
+   TU0851/16/230128/N44.727/E5.679/28575/N/
+
+[2025-01-17 00:02:20 CET] [136.975] [-11.1/-30.1 dBFS] [19.0 dB] [1.4 ppm]
+02A261 (Aircraft, Airborne) -> 26CA77 (Ground station): Command
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Initiation
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 80
+  VDL params:
+   Parameter set ID: V
+   Connection management: 01
+   XID sequencing: seq: 0 retry: 0
+   AVLC specific options: 25
+   Destination airport: DTTA
+   Aircraft location: 44.6N 5.7E 29000 ft
+

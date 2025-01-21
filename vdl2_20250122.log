@@ -1,0 +1,95 @@
+[2025-01-22 00:01:08 CET] [136.975] [-9.7/-30.0 dBFS] [20.4 dB] [-0.5 ppm]
+347302 (Aircraft, Airborne) -> 10907A (Ground station): Command
+AVLC type: I sseq: 0 rseq: 0 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .EC-NXU Flight: SK5102
+  Mode: 2 Label: HX Blk id: 9 More: 0 Ack: ! Msg num: S39A
+  Message:
+   /MXPCAYA.A9 CRC /MXPCAYA.TI2/LIMC ARR ATIS Y
+   2250Z LIMC ARR Y 2250Z I
+    L S
+   ZULU RWY IN USE 35L RCR
+   AT 1800Z 6/6/6 DRY DRY
+   DRY TL 70 WIND TDZ
+   VRB1KT VRB BTN 320/
+
+[2025-01-22 00:01:09 CET] [136.975] [-10.5/-30.5 dBFS] [20.0 dB] [-0.6 ppm]
+347302 (Aircraft, Airborne) -> 10990A (Ground station): Command
+AVLC type: U (DISC) P/F: 0
+
+[2025-01-22 00:01:12 CET] [136.975] [-12.4/-30.4 dBFS] [18.0 dB] [-0.5 ppm]
+347302 (Aircraft, Airborne) -> 109C2A (Ground station): Command
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Initiation
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   Connection management: 05
+   XID sequencing: seq: 0 retry: 0
+   AVLC specific options: 25
+
+[2025-01-22 00:01:18 CET] [136.975] [-11.8/-29.9 dBFS] [18.1 dB] [-0.6 ppm]
+347302 (Aircraft, Airborne) -> 10990A (Ground station): Response
+AVLC type: U (DM) P/F: 0
+
+[2025-01-22 00:04:28 CET] [136.725] [-8.0/-30.0 dBFS] [22.0 dB] [2.4 ppm]
+4CA769 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 0 rseq: 0 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .EI-EFN Flight: FR4734
+  Mode: 2 Label: 16 Blk id: 6 More: 0 Ack: ! Msg num: M18A
+  Message:
+   230426,,2353, 115,N   .    MMMM.MMM
+
+[2025-01-22 00:04:30 CET] [136.725] [-10.1/-30.2 dBFS] [20.1 dB] [2.4 ppm]
+4CA769 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 1 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 3 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x14c9
+   X.224 COTP Data Ack:
+    dst_ref: 0xd889
+    rseq: 4 credit: 3
+    Checksum: de d7
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-01-22 00:05:42 CET] [136.975] [-10.1/-30.4 dBFS] [20.3 dB] [-1.2 ppm]
+406B21 (Aircraft, Airborne) -> 10984A (Ground station): Command
+AVLC type: I sseq: 5 rseq: 5 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .G-XLEH Flight: BA057K
+  Mode: 2 Label: 10 Blk id: 5 More: 0 Ack: ! Msg num: U79A
+  Message:
+   FTX01.FIC
+   ADC AFJ/0009STUCK JETTY REQUIRE HAL ENG FIX
+
+[2025-01-22 00:06:02 CET] [136.725] [-9.8/-30.2 dBFS] [20.5 dB] [2.3 ppm]
+4CA769 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 4 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x14ca
+   X.224 COTP Data Ack:
+    dst_ref: 0xd889
+    rseq: 4 credit: 3
+    Checksum: de d7
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+

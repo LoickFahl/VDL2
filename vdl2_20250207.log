@@ -1,0 +1,11 @@
+[2025-02-07 00:03:22 CET] [136.975] [-10.7/-30.8 dBFS] [20.1 dB] [0.1 ppm]
+347302 (Aircraft, Airborne) -> 10905A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 2 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .EC-NXU Flight: SK5102
+  Mode: 2 Label: H1 Blk id: 4 More: 0 Ack: ! Msg num: F01A
+  Sublabel: M1
+  Message:
+   PRG/FNBCS421/DTN44560E004480,LIMC,35L,126,234813,2A0954
+

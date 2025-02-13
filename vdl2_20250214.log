@@ -1,0 +1,56 @@
+[2025-02-14 00:00:45 CET] [136.725] [-0.6/-31.6 dBFS] [31.0 dB] [4.0 ppm]
+4CADB8 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 1 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .EI-IFX Flight: FR32XB
+  Mode: 2 Label: 16 Blk id: 1 More: 0 Ack: ! Msg num: M40A
+  Message:
+   230044,37002,2351,  97,N 43.516 E  6.158
+
+[2025-02-14 00:01:12 CET] [136.725] [0.7/-31.3 dBFS] [32.0 dB] [0.4 ppm]
+345102 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 3 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xe5
+   X.224 COTP Data Ack:
+    dst_ref: 0xa2f7
+    rseq: 2 credit: 2
+    Flow control:
+     Acked TPDU nr: 2
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: ef 0f ed 6a
+
+[2025-02-14 00:02:44 CET] [136.725] [-6.3/-31.0 dBFS] [24.7 dB] [0.3 ppm]
+345102 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 4 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xe6
+   X.224 COTP Data Ack:
+    dst_ref: 0xa2f7
+    rseq: 2 credit: 2
+    Flow control:
+     Acked TPDU nr: 2
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: ef 0f ed 6a
+
+[2025-02-14 00:04:30 CET] [136.725] [1.0/-31.3 dBFS] [32.3 dB] [3.3 ppm]
+4CADB8 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 4 rseq: 3 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .EI-IFX Flight: FR32XB
+  Mode: 2 Label: B9 Blk id: 2 More: 0 Ack: ! Msg num: M41A
+  Message:
+   /LEBL.TI2/024LEBLA93E5
+

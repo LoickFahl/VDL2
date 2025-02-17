@@ -1,0 +1,44 @@
+[2025-02-18 00:00:08 CET] [136.725] [-10.9/-30.4 dBFS] [19.4 dB] [2.6 ppm]
+4D24CC (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x8ed
+   X.224 COTP Data Ack:
+    dst_ref: 0xc93a
+    rseq: 5 credit: 3
+    Checksum: c7 4b
+    Flow control:
+     Acked TPDU nr: 5
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-02-18 00:00:43 CET] [136.775] [-4.5/-30.3 dBFS] [25.7 dB] [2.5 ppm]
+02A197 (Aircraft, Airborne) -> 233925 (Ground station): Response
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Response
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 80
+  VDL params:
+   Parameter set ID: V
+   Connection management: 01
+   XID sequencing: seq: 6 retry: 0
+   AVLC specific options: 25
+   Destination airport: DTTA
+   Aircraft location: 43.2N 6.6E 38000 ft
+
+[2025-02-18 00:00:53 CET] [136.975] [-12.9/-30.9 dBFS] [18.0 dB] [2.6 ppm]
+4D24CC (Aircraft, Airborne) -> 10985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 2 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .9H-VVK Flight: FR03UX
+  Mode: 2 Label: 16 Blk id: 7 More: 0 Ack: ! Msg num: M30A
+  Message:
+   230051,32859,2348,  83,N 43.572 E  7.301
+

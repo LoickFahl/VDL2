@@ -1,0 +1,27 @@
+[2025-02-20 00:00:28 CET] [136.775] [-10.0/-30.4 dBFS] [20.4 dB] [5.5 ppm]
+39CEA6 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 7 rseq: 5 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .F-HTVG Flight: TO8095
+  Mode: 2 Label: H1 Blk id: 5 More: 0 Ack: ! Msg num: F60A
+  Sublabel: M1
+  Message:
+   PRG/FNTVF8095/DTLFML,31R,72,231024,29B82B
+
+[2025-02-20 00:02:35 CET] [136.775] [-10.8/-30.4 dBFS] [19.5 dB] [5.3 ppm]
+39CEA6 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 2 rseq: 0 poll: 0
+ ACARS:
+  Reassembly: out of sequence
+  Reg: .F-HTVG Flight: TO8095
+  Mode: 2 Label: H1 Blk id: 8 More: 0 Ack: ! Msg num: D47C
+  Sublabel: DF
+  Message:
+   XXXXXXXXXXXXXX
+   037303731198120304304303740375XXXXXXXX
+   XXXXXXXXXXXXXXXXXXXXXXXX
+   XXXXXXXXXXXXXXXXXXXXXXXX
+   4168N0783N014N0797042940700001300011019400196600000
+   039050391501551064574055203
+

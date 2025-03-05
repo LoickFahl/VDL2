@@ -1,0 +1,22 @@
+[2025-03-06 00:02:53 CET] [136.975] [-13.2/-29.8 dBFS] [16.6 dB] [-0.1 ppm]
+347302 (Aircraft, Airborne) -> 10957A (Ground station): Response
+AVLC type: U (DM) P/F: 0
+
+[2025-03-06 00:02:55 CET] [136.975] [-12.8/-29.7 dBFS] [16.9 dB] [-0.2 ppm]
+347302 (Aircraft, Airborne) -> 10907A (Ground station): Command
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Initiation
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   Connection management: 05
+   XID sequencing: seq: 7 retry: 1
+   AVLC specific options: 25
+
+[2025-03-06 00:03:46 CET] [136.975] [-14.6/-29.6 dBFS] [15.0 dB] [-0.1 ppm]
+347302 (Aircraft, Airborne) -> 10957A (Ground station): Response
+AVLC type: U (DM) P/F: 0
+

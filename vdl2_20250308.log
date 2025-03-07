@@ -1,0 +1,190 @@
+[2025-03-08 00:00:22 CET] [136.725] [-6.3/-29.9 dBFS] [23.6 dB] [4.1 ppm]
+4D226C (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 5 rseq: 5 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .9H-QAZ Flight: FR0349
+  Mode: 2 Label: B9 Blk id: 7 More: 0 Ack: ! Msg num: M72A
+  Message:
+   /LIMC.TI2/024LIMCAE0D8
+
+[2025-03-08 00:00:38 CET] [136.725] [-8.9/-29.6 dBFS] [20.7 dB] [3.9 ppm]
+4D226C (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 7 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x582
+   X.224 COTP Data Ack:
+    dst_ref: 0x6ada
+    rseq: 4 credit: 3
+    Checksum: de f4
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-08 00:01:16 CET] [136.975] [-10.3/-30.4 dBFS] [20.1 dB] [2.5 ppm]
+3481C9 (Aircraft, Airborne) -> 10905A (Ground station): Command
+AVLC type: I sseq: 7 rseq: 7 poll: 0
+ ACARS:
+  Reassembly: out of sequence
+  Reg: .EC-OJX Flight: CA0421
+  Mode: 2 Label: H1 Blk id: 4 More: 0 Ack: ! Msg num: D23B
+  Sublabel: DF
+  Message:
+   2; -34.2;-;-;   0;
+   L05;   0.4044;  43.5309;03041;-----;
+
+[2025-03-08 00:01:22 CET] [136.725] [-11.0/-29.9 dBFS] [18.9 dB] [3.3 ppm]
+040197 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 6 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x25b
+   X.224 COTP Data Ack:
+    dst_ref: 0x6ae1
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 51 a4 b0 9c
+
+[2025-03-08 00:01:25 CET] [136.725] [-9.1/-30.3 dBFS] [21.1 dB] [3.0 ppm]
+040197 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 6 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x25b
+   X.224 COTP Data Ack:
+    dst_ref: 0x6ae1
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 51 a4 b0 9c
+
+[2025-03-08 00:02:54 CET] [136.725] [-8.0/-30.1 dBFS] [22.1 dB] [3.2 ppm]
+040197 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 7 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x25c
+   X.224 COTP Data Ack:
+    dst_ref: 0x6ae1
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 51 a4 b0 9c
+
+[2025-03-08 00:03:42 CET] [136.725] [-10.3/-30.4 dBFS] [20.1 dB] [2.8 ppm]
+040197 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 0 rseq: 0 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .ET-AYB Flight: ET0553
+  Mode: 2 Label: SA Blk id: 0 More: 0 Ack: ! Msg num: S74A
+  Message:
+   0LH230341VS/
+  Media Advisory, version 0:
+   Link HF lost at 23:03:41 UTC
+   Available links: VHF ACARS, Default SATCOM
+
+[2025-03-08 00:04:26 CET] [136.725] [-6.7/-30.0 dBFS] [23.3 dB] [3.0 ppm]
+040197 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 1 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x25d
+   X.224 COTP Data Ack:
+    dst_ref: 0x6ae1
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 51 a4 b0 9c
+
+[2025-03-08 00:07:19 CET] [136.975] [-11.2/-29.8 dBFS] [18.6 dB] [3.4 ppm]
+4CA9CC (Aircraft, Airborne) -> 10F69B (Ground station): Command
+AVLC type: I sseq: 0 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x7bd
+   X.224 COTP Data Ack:
+    dst_ref: 0x6ae4
+    rseq: 2 credit: 2
+    Checksum: af 1f
+    Flow control:
+     Acked TPDU nr: 2
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-08 00:07:30 CET] [136.725] [-7.0/-30.3 dBFS] [23.3 dB] [2.2 ppm]
+040197 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 4 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 7 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x260
+   X.224 COTP Data Ack:
+    dst_ref: 0x6ae1
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 51 a4 b0 9c
+
+[2025-03-08 00:07:45 CET] [136.725] [-8.9/-29.4 dBFS] [20.4 dB] [2.5 ppm]
+040197 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 5 rseq: 5 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .ET-AYB Flight: ET0553
+  Mode: 2 Label: 80 Blk id: 1 More: 0 Ack: ! Msg num: M01A
+  Message:
+   POSCYYZ/HAAB/LATN43583/LONE006136/ALT370/FOB42589
+   /TME2307/WND -128 15/OAT-50/TAS495/ETA0442
+
+[2025-03-08 00:09:02 CET] [136.725] [-6.0/-30.0 dBFS] [24.0 dB] [2.2 ppm]
+040197 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 6 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x261
+   X.224 COTP Data Ack:
+    dst_ref: 0x6ae1
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 51 a4 b0 9c
+

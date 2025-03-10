@@ -1,0 +1,5077 @@
+[2025-03-10 11:31:45 CET] [136.775] [-4.2/-29.3 dBFS] [25.0 dB] [2.6 ppm]
+471EFD (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 4 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 7 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x45 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x17e
+   X.224 COTP Data Ack:
+    dst_ref: 0x8931
+    rseq: 0 credit: 1
+    ATN checksum: 2f 83 92 b0
+
+[2025-03-10 11:31:46 CET] [136.775] [-4.5/-29.4 dBFS] [24.9 dB] [2.8 ppm]
+471EFD (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 6 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x45 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x17f
+   X.224 COTP Data Ack:
+    dst_ref: 0x8931
+    rseq: 0 credit: 1
+    Flow control:
+     Acked TPDU nr: 0
+     Acked subsequence: 0
+     Acked credit: 1
+    ATN checksum: 70 5a 79 12
+
+[2025-03-10 11:31:47 CET] [136.775] [-4.4/-29.5 dBFS] [25.1 dB] [1.4 ppm]
+47A50D (Aircraft, Airborne) -> 210DC5 (Ground station): Command
+AVLC type: I sseq: 1 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x49 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x1c6
+   X.224 COTP Data Ack:
+    dst_ref: 0x8279
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 2c 29 49 f7
+
+[2025-03-10 11:31:49 CET] [136.775] [-4.3/-29.1 dBFS] [24.9 dB] [1.2 ppm]
+47A50D (Aircraft, Airborne) -> 233925 (Ground station): Response
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Response
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   Connection management: 05
+   XID sequencing: seq: 1 retry: 0
+   AVLC specific options: 25
+   Destination airport: EFHK
+
+[2025-03-10 11:31:50 CET] [136.775] [-4.2/-29.3 dBFS] [25.2 dB] [1.4 ppm]
+47A50D (Aircraft, Airborne) -> 210DC5 (Ground station): Command
+AVLC type: I sseq: 1 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x49 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x1c6
+   X.224 COTP Data Ack:
+    dst_ref: 0x8279
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 2c 29 49 f7
+
+[2025-03-10 11:31:51 CET] [136.725] [-1.5/-29.7 dBFS] [28.1 dB] [2.4 ppm]
+4CADE5 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 1 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 5 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x161
+   X.224 COTP Data Ack:
+    dst_ref: 0x8252
+    rseq: 4 credit: 3
+    Checksum: f8 4b
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-10 11:31:54 CET] [136.775] [-3.5/-29.1 dBFS] [25.5 dB] [1.2 ppm]
+47A50D (Aircraft, Airborne) -> 210DC5 (Ground station): Command
+AVLC type: I sseq: 1 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x49 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x1c6
+   X.224 COTP Data Ack:
+    dst_ref: 0x8279
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 2c 29 49 f7
+
+[2025-03-10 11:32:24 CET] [136.725] [-4.5/-30.3 dBFS] [25.8 dB] [2.8 ppm]
+4D2228 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 0 rseq: 7 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .9H-QCC Flight: FR1780
+  Mode: 2 Label: 16 Blk id: 1 More: 0 Ack: ! Msg num: M28A
+  Message:
+   103222,,1130, 103,N   .    MMMM.MMM
+
+[2025-03-10 11:32:24 CET] [136.725] [-12.8/-30.0 dBFS] [17.2 dB] [-0.1 ppm]
+342591 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 3 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x9d
+   X.224 COTP Data Ack:
+    dst_ref: 0x829d
+    rseq: 10 credit: 4
+    Flow control:
+     Acked TPDU nr: 10
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: af 1a c6 cb
+
+[2025-03-10 11:32:26 CET] [136.775] [-8.9/-29.6 dBFS] [20.7 dB] [0.2 ppm]
+344217 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 6 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xf0
+   X.224 COTP Data Ack:
+    dst_ref: 0x8273
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 7c d9 b5 1d
+
+[2025-03-10 11:32:31 CET] [136.725] [-4.0/-30.1 dBFS] [26.1 dB] [2.8 ppm]
+4D2228 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x13f5
+   X.224 COTP Data Ack:
+    dst_ref: 0x8251
+    rseq: 4 credit: 3
+    Checksum: fd 47
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-10 11:32:36 CET] [136.725] [-6.2/-29.8 dBFS] [23.6 dB] [2.7 ppm]
+4D2228 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x13f5
+   X.224 COTP Data Ack:
+    dst_ref: 0x8251
+    rseq: 4 credit: 3
+    Checksum: fd 47
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-10 11:32:43 CET] [136.775] [1.0/-29.6 dBFS] [30.6 dB] [0.8 ppm]
+34604D (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Initiation
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   Connection management: 05
+   XID sequencing: seq: 1 retry: 0
+   AVLC specific options: 25
+   Destination airport: LEMD
+
+[2025-03-10 11:32:44 CET] [136.775] [0.8/-30.1 dBFS] [30.9 dB] [0.6 ppm]
+34604D (Aircraft, Airborne) -> 26E206 (Ground station): Command
+AVLC type: I sseq: 3 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x113
+   X.224 COTP Data Ack:
+    dst_ref: 0x8269
+    rseq: 6 credit: 3
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 5a b4 8b 40
+
+[2025-03-10 11:32:45 CET] [136.725] [-6.9/-29.8 dBFS] [22.8 dB] [3.6 ppm]
+440667 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 1 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x181
+   X.224 COTP Data Ack:
+    dst_ref: 0x8274
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: cf d3 57 e2
+
+[2025-03-10 11:32:48 CET] [136.775] [-7.6/-29.8 dBFS] [22.1 dB] [2.8 ppm]
+471EFD (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 0 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x46 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x180
+   X.224 COTP Data Ack:
+    dst_ref: 0x8268
+    rseq: 7 credit: 3
+    Flow control:
+     Acked TPDU nr: 7
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 64 db 50 6d
+
+[2025-03-10 11:32:52 CET] [136.775] [1.1/-30.0 dBFS] [31.1 dB] [0.7 ppm]
+34604D (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Initiation
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   Connection management: 05
+   XID sequencing: seq: 1 retry: 1
+   AVLC specific options: 25
+   Destination airport: LEMD
+
+[2025-03-10 11:32:54 CET] [136.775] [1.1/-29.5 dBFS] [30.7 dB] [0.6 ppm]
+34604D (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x114
+   IDRP Open: seq: 1 ack: 2 credit_offered: 32 credit_avail: 4
+    Hold Time: 900 seconds
+    Max. PDU size: 3000 octets
+    Source RDI: 47 00 27 41 41 45 41 00 34 60 4d	"G.'AAEA.4`M"
+    RIB Attribute Set:
+     RibAtt #0:
+      Security:
+       Reg ID: 06 04 2b 1b 00 00
+    Auth mechanism: simple checksum
+
+[2025-03-10 11:32:54 CET] [136.775] [1.1/-29.7 dBFS] [30.7 dB] [0.8 ppm]
+34604D (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 3 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x115
+   IDRP Update: seq: 2 ack: 2 credit_offered: 32 credit_avail: 3
+    Route:
+     ID: 2
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: all
+    RD path:
+     RD_SEQ:
+      47 00 27 41 41 45 41 00 34 60 4d	"G.'AAEA.4`M"
+    RD hop count: 1
+    Capacity: 13
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 88
+     Dest. address prefix: 47 00 27 41 41 45 41 00 34 60 4d	"G.'AAEA.4`M"
+
+[2025-03-10 11:32:55 CET] [136.725] [-7.2/-30.0 dBFS] [22.9 dB] [0.3 ppm]
+0A0022 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 6 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x48
+   X.224 COTP Data Ack:
+    dst_ref: 0x8283
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: ad 9d b6 70
+
+[2025-03-10 11:32:59 CET] [136.725] [0.8/-30.0 dBFS] [30.8 dB] [2.8 ppm]
+4CA27C (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 7 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x336
+   X.224 COTP Data Ack:
+    dst_ref: 0x825f
+    rseq: 4 credit: 3
+    Checksum: b7 7f
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-10 11:32:59 CET] [136.725] [-6.6/-30.2 dBFS] [23.5 dB] [2.5 ppm]
+4D2228 (Aircraft, Airborne) -> 11985A (Ground station): Response
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Response
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 84 80
+  VDL params:
+   Parameter set ID: V
+   XID sequencing: seq: 5 retry: 3
+   Destination airport: LEVC
+   Aircraft location: 0.0N 0.0E 0 ft
+   AVLC specific options: 24
+   Connection management: 01
+
+[2025-03-10 11:33:02 CET] [136.775] [1.2/-29.8 dBFS] [30.9 dB] [0.7 ppm]
+34604D (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 5 rseq: 7 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .EC-MUZ Flight: UX1066
+  Mode: 2 Label: 5U Blk id: 9 More: 0 Ack: ! Msg num: M21A
+  Message:
+     01 WXRQ   1066/10 LIMC/LEMD .EC-MUZ
+   /TYP 1/STA LFML/STA LEBL/STA LEGE
+
+[2025-03-10 11:33:03 CET] [136.725] [0.6/-29.7 dBFS] [30.3 dB] [3.0 ppm]
+4CA27C (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 7 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x336
+   X.224 COTP Data Ack:
+    dst_ref: 0x825f
+    rseq: 4 credit: 3
+    Checksum: b7 7f
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-10 11:33:05 CET] [136.725] [-10.3/-29.4 dBFS] [19.1 dB] [-0.6 ppm]
+3423C4 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 4 rseq: 4 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .EC-JRE Flight: IB06EV
+  Mode: 2 Label: H1 Blk id: 6 More: 0 Ack: ! Msg num: F52A
+  Sublabel: M1
+  Message:
+   POSN42592E005001,N43123E005218,103302,350,N42560E004549,103350,NILDU,M52,23248,149/TS103302,031025E925
+
+[2025-03-10 11:33:06 CET] [136.725] [-4.7/-29.9 dBFS] [25.2 dB] [3.6 ppm]
+345084 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 2 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .EC-MGF Flight: VY016K
+  Mode: 2 Label: H1 Blk id: 6 More: 0 Ack: ! Msg num: F22A
+  Sublabel: M1
+  Message:
+   RESPWI/AK,071/TS103305,100325991D
+
+[2025-03-10 11:33:07 CET] [136.775] [-8.8/-29.7 dBFS] [20.9 dB] [2.5 ppm]
+471EFD (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 1 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x46 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x181
+   X.224 COTP Data Ack:
+    dst_ref: 0x8268
+    rseq: 8 credit: 3
+    ATN checksum: b9 44 93 20
+   X.224 COTP Data:
+    dst_ref: 0x8268
+    sseq: 7 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    ATN checksum: 72 c4 ef 10
+    X.227 ACSE Release Response:
+     Reason: normal
+     ATCDownlinkMessage: <empty PDU>
+
+[2025-03-10 11:33:08 CET] [136.775] [-8.9/-29.5 dBFS] [20.7 dB] [2.8 ppm]
+471EFD (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 2 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x45 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x182
+   X.224 COTP Data:
+    dst_ref: 0x8931
+    sseq: 0 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    ATN checksum: 92 28 b4 e6
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 0
+      Timestamp: 2025-03-10 10:33:07
+      Logical ACK: required
+     Message data:
+      CURRENT DATA AUTHORITY
+
+[2025-03-10 11:33:08 CET] [136.775] [-9.0/-29.7 dBFS] [20.7 dB] [2.8 ppm]
+471EFD (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 4 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x46 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x183
+   X.224 COTP Disconnect Confirm:
+    src_ref: 0x003c dst_ref: 0x8268
+    ATN checksum: 35 d1 6d aa
+
+[2025-03-10 11:33:11 CET] [136.775] [-9.9/-29.5 dBFS] [19.6 dB] [2.9 ppm]
+471EFD (Aircraft, Airborne) -> 2654E5 (Ground station): Command
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Initiation
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 80
+  VDL params:
+   Parameter set ID: V
+   Connection management: 01
+   XID sequencing: seq: 6 retry: 0
+   AVLC specific options: 25
+   Destination airport: EPWA
+   Aircraft location: 43.6N 7.2E 36000 ft
+
+[2025-03-10 11:33:11 CET] [136.775] [-10.2/-29.6 dBFS] [19.3 dB] [2.9 ppm]
+471EFD (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 6 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x45 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x184
+   X.224 COTP Data Ack:
+    dst_ref: 0x8931
+    rseq: 1 credit: 2
+    ATN checksum: a2 23 8d a0
+
+[2025-03-10 11:33:14 CET] [136.775] [-12.8/-29.9 dBFS] [17.1 dB] [2.5 ppm]
+471EFD (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 6 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x45 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x184
+   X.224 COTP Data Ack:
+    dst_ref: 0x8931
+    rseq: 1 credit: 2
+    ATN checksum: a2 23 8d a0
+
+[2025-03-10 11:33:17 CET] [136.725] [-5.1/-30.3 dBFS] [25.1 dB] [3.2 ppm]
+345084 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 3 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x105
+   X.224 COTP Data Ack:
+    dst_ref: 0x8941
+    rseq: 9 credit: 4
+    ATN checksum: 7c c9 59 93
+
+[2025-03-10 11:33:18 CET] [136.725] [-6.2/-30.1 dBFS] [23.8 dB] [3.4 ppm]
+345084 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 4 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 7 rseq: 7 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x106
+   X.224 COTP Data Ack:
+    dst_ref: 0x8281
+    rseq: 0 credit: 1
+    Flow control:
+     Acked TPDU nr: 0
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 63 18 4c a9
+
+[2025-03-10 11:33:19 CET] [136.775] [-12.0/-29.6 dBFS] [17.6 dB] [2.4 ppm]
+471EFD (Aircraft, Airborne) -> 2654E5 (Ground station): Command
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Initiation
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 80
+  VDL params:
+   Parameter set ID: V
+   Connection management: 01
+   XID sequencing: seq: 6 retry: 1
+   AVLC specific options: 25
+   Destination airport: EPWA
+   Aircraft location: 43.6N 7.2E 36000 ft
+
+[2025-03-10 11:33:20 CET] [136.725] [-12.5/-29.6 dBFS] [17.1 dB] [3.9 ppm]
+4CA61F (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 0 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 6 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x1e05
+   X.224 COTP Data Ack:
+    dst_ref: 0x8287
+    rseq: 4 credit: 3
+    Checksum: ee 20
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-10 11:33:24 CET] [136.725] [-1.4/-29.8 dBFS] [28.4 dB] [2.4 ppm]
+4CADE5 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 3 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 7 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x163
+   X.224 COTP Data Ack:
+    dst_ref: 0x8252
+    rseq: 4 credit: 3
+    Checksum: f8 4b
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-10 11:33:42 CET] [136.975] [-12.3/-29.6 dBFS] [17.3 dB] [3.2 ppm]
+4D21FC (Aircraft, Airborne) -> 109C2A (Ground station): Command
+AVLC type: I sseq: 1 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 7 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x12d
+   X.224 COTP Data Ack:
+    dst_ref: 0x8278
+    rseq: 4 credit: 3
+    Checksum: 3a e3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-10 11:33:45 CET] [136.725] [-9.6/-29.8 dBFS] [20.2 dB] [0.2 ppm]
+342591 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 5 rseq: 4 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .EC-KHN Flight: VY78VB
+  Mode: 2 Label: 5U Blk id: 5 More: 0 Ack: ! Msg num: M27A
+  Message:
+   LFMT LEGE LERS-FS
+
+[2025-03-10 11:33:56 CET] [136.725] [-9.8/-29.3 dBFS] [19.5 dB] [0.0 ppm]
+342591 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x9f
+   X.224 COTP Data Ack:
+    dst_ref: 0x829d
+    rseq: 10 credit: 4
+    Flow control:
+     Acked TPDU nr: 10
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: af 1a c6 cb
+
+[2025-03-10 11:33:58 CET] [136.775] [-3.9/-29.6 dBFS] [25.6 dB] [0.1 ppm]
+344217 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 0 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xf2
+   X.224 COTP Data Ack:
+    dst_ref: 0x8273
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 7c d9 b5 1d
+
+[2025-03-10 11:33:59 CET] [136.725] [-10.1/-29.6 dBFS] [19.5 dB] [-0.3 ppm]
+342591 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x9f
+   X.224 COTP Data Ack:
+    dst_ref: 0x829d
+    rseq: 10 credit: 4
+    Flow control:
+     Acked TPDU nr: 10
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: af 1a c6 cb
+
+[2025-03-10 11:34:01 CET] [136.725] [-7.9/-29.6 dBFS] [21.8 dB] [2.6 ppm]
+4D2228 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x13f6
+   X.224 COTP Data Ack:
+    dst_ref: 0x8251
+    rseq: 4 credit: 3
+    Checksum: fd 47
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-10 11:34:07 CET] [136.725] [-10.6/-30.2 dBFS] [19.5 dB] [3.3 ppm]
+345084 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 5 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x107
+   X.224 COTP Data Ack:
+    dst_ref: 0x8941
+    rseq: 9 credit: 4
+    Flow control:
+     Acked TPDU nr: 8
+     Acked subsequence: 0
+     Acked credit: 10
+    ATN checksum: 3b 06 4c f4
+
+[2025-03-10 11:34:17 CET] [136.725] [-7.2/-30.0 dBFS] [22.8 dB] [3.5 ppm]
+440667 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 7 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x182
+   X.224 COTP Data Ack:
+    dst_ref: 0x8274
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: cf d3 57 e2
+
+[2025-03-10 11:34:20 CET] [136.775] [0.7/-29.7 dBFS] [30.5 dB] [0.2 ppm]
+34604D (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 1 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x117
+   X.224 COTP Data Ack:
+    dst_ref: 0x8269
+    rseq: 6 credit: 3
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 5a b4 8b 40
+
+[2025-03-10 11:34:23 CET] [136.975] [-6.3/-30.1 dBFS] [23.8 dB] [0.5 ppm]
+4D243C (Aircraft, Airborne) -> 10907A (Ground station): Response
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Response
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   Connection management: 05
+   XID sequencing: seq: 1 retry: 0
+   AVLC specific options: 25
+   Destination airport: LFMD
+
+[2025-03-10 11:34:24 CET] [136.775] [0.9/-29.7 dBFS] [30.6 dB] [0.2 ppm]
+34604D (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 1 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x117
+   X.224 COTP Data Ack:
+    dst_ref: 0x8269
+    rseq: 6 credit: 3
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 5a b4 8b 40
+
+[2025-03-10 11:34:30 CET] [136.725] [-1.2/-29.6 dBFS] [28.5 dB] [-0.1 ppm]
+0A0022 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 7 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x49
+   X.224 COTP Data Ack:
+    dst_ref: 0x8283
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: ad 9d b6 70
+
+[2025-03-10 11:34:40 CET] [136.725] [-11.9/-30.2 dBFS] [18.3 dB] [1.7 ppm]
+4D2288 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 6 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 3 rseq: 7 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x1c31
+   X.224 COTP Data Ack:
+    dst_ref: 0x8932
+    rseq: 1 credit: 2
+    Checksum: 87 8b
+
+[2025-03-10 11:34:41 CET] [136.725] [-11.7/-29.9 dBFS] [18.2 dB] [1.4 ppm]
+4D2288 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 7 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 4 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x1c32
+   X.224 COTP Data Ack:
+    dst_ref: 0x8932
+    rseq: 2 credit: 2
+    Checksum: 83 8e
+
+[2025-03-10 11:34:43 CET] [136.875] [-6.6/-30.0 dBFS] [23.4 dB] [-1.3 ppm]
+392AF1 (Aircraft, Airborne) -> 266661 (Ground station): Command
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Initiation
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 80
+  VDL params:
+   Parameter set ID: V
+   Connection management: 01
+   XID sequencing: seq: 3 retry: 0
+   AVLC specific options: 25
+   Destination airport: LFPG
+   Aircraft location: 44.0N 4.5E 20000 ft
+
+[2025-03-10 11:34:43 CET] [136.875] [-6.6/-30.0 dBFS] [23.4 dB] [-1.3 ppm]
+392AF1 (Aircraft, Airborne) -> 266661 (Ground station): Command
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Initiation
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 80
+  VDL params:
+   Parameter set ID: V
+   Connection management: 01
+   XID sequencing: seq: 3 retry: 1
+   AVLC specific options: 25
+   Destination airport: LFPG
+   Aircraft location: 44.0N 4.5E 20000 ft
+
+[2025-03-10 11:34:43 CET] [136.875] [-6.6/-30.0 dBFS] [23.4 dB] [-1.3 ppm]
+392AF1 (Aircraft, Airborne) -> 266661 (Ground station): Command
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Initiation
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 80
+  VDL params:
+   Parameter set ID: V
+   Connection management: 01
+   XID sequencing: seq: 3 retry: 2
+   AVLC specific options: 25
+   Destination airport: LFPG
+   Aircraft location: 44.0N 4.5E 20000 ft
+
+[2025-03-10 11:34:45 CET] [136.875] [-8.3/-30.1 dBFS] [21.8 dB] [-1.2 ppm]
+392AF1 (Aircraft, Airborne) -> 266661 (Ground station): Command
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Initiation
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 80
+  VDL params:
+   Parameter set ID: V
+   Connection management: 01
+   XID sequencing: seq: 3 retry: 3
+   AVLC specific options: 25
+   Destination airport: LFPG
+   Aircraft location: 44.0N 4.5E 20000 ft
+
+[2025-03-10 11:34:49 CET] [136.775] [-3.0/-29.8 dBFS] [26.8 dB] [3.1 ppm]
+471F36 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Initiation
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 80
+  VDL params:
+   Parameter set ID: V
+   Connection management: 01
+   XID sequencing: seq: 5 retry: 0
+   AVLC specific options: 25
+   Destination airport: LHBP
+   Aircraft location: 42.8N 6.1E 33000 ft
+
+[2025-03-10 11:34:51 CET] [136.725] [-0.7/-30.3 dBFS] [29.6 dB] [3.9 ppm]
+4CA61F (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 0 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x1e07
+   X.224 COTP Data Ack:
+    dst_ref: 0x8287
+    rseq: 4 credit: 3
+    Checksum: ee 20
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-10 11:34:57 CET] [136.725] [-11.0/-30.1 dBFS] [19.1 dB] [2.4 ppm]
+4CADE5 (Aircraft, Airborne) -> 1199BA (Ground station): Command
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Initiation
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 84 80
+  VDL params:
+   Parameter set ID: V
+   XID sequencing: seq: 6 retry: 0
+   Destination airport: LEAL
+   Aircraft location: 43.1N 4.5E 36000 ft
+   Alternate ground stations: 11985A 11905A
+   AVLC specific options: 24
+   Connection management: 01
+
+[2025-03-10 11:34:58 CET] [136.725] [-11.7/-29.9 dBFS] [18.2 dB] [2.4 ppm]
+4CADE5 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 4 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x164
+   X.224 COTP Data Ack:
+    dst_ref: 0x8252
+    rseq: 4 credit: 3
+    Checksum: f8 4b
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-10 11:35:02 CET] [136.875] [-5.2/-29.7 dBFS] [24.5 dB] [-1.3 ppm]
+392AF1 (Aircraft, Airborne) -> 266661 (Ground station): Command
+AVLC type: I sseq: 2 rseq: 1 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .F-GKXR Flight: AF56MJ
+  Mode: 2 Label: SA Blk id: 9 More: 0 Ack: ! Msg num: S21A
+  Message:
+   0EV103444V
+  Media Advisory, version 0:
+   Link VHF ACARS established at 10:34:44 UTC
+   Available links: VHF ACARS
+
+[2025-03-10 11:35:06 CET] [136.725] [-11.3/-30.2 dBFS] [18.9 dB] [2.3 ppm]
+4CADE5 (Aircraft, Airborne) -> 1199BA (Ground station): Command
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Initiation
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 84 80
+  VDL params:
+   Parameter set ID: V
+   XID sequencing: seq: 6 retry: 1
+   Destination airport: LEAL
+   Aircraft location: 43.1N 4.5E 36000 ft
+   Alternate ground stations: 11985A 11905A
+   AVLC specific options: 24
+   Connection management: 01
+
+[2025-03-10 11:35:09 CET] [136.725] [-10.4/-30.4 dBFS] [20.0 dB] [1.6 ppm]
+4D2288 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 1 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 6 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x1c34
+   X.224 COTP Data Ack:
+    dst_ref: 0x8932
+    rseq: 3 credit: 2
+    Checksum: 7f 91
+
+[2025-03-10 11:35:09 CET] [136.725] [-10.2/-30.5 dBFS] [20.3 dB] [1.7 ppm]
+4D2288 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 7 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x1c35
+   X.224 COTP Data:
+    dst_ref: 0x8932
+    sseq: 2 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    Checksum: ef 48
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 2
+      Msg Ref: 2
+      Timestamp: 2025-03-10 10:35:08
+      Logical ACK: notRequired
+     Message data:
+      LOGICAL ACKNOWLEDGMENT
+
+[2025-03-10 11:35:12 CET] [136.975] [-13.4/-30.1 dBFS] [16.6 dB] [3.1 ppm]
+4D21FC (Aircraft, Airborne) -> 109C2A (Ground station): Command
+AVLC type: I sseq: 6 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 7 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x131
+   X.224 COTP Data Ack:
+    dst_ref: 0x8278
+    rseq: 6 credit: 3
+    Checksum: 37 96
+
+[2025-03-10 11:35:28 CET] [136.725] [-6.4/-30.5 dBFS] [24.1 dB] [-0.4 ppm]
+342591 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 3 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xa0
+   X.224 COTP Data Ack:
+    dst_ref: 0x829d
+    rseq: 10 credit: 4
+    Flow control:
+     Acked TPDU nr: 10
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: af 1a c6 cb
+
+[2025-03-10 11:35:30 CET] [136.775] [-0.5/-30.1 dBFS] [29.5 dB] [0.0 ppm]
+344217 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 1 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xf3
+   X.224 COTP Data Ack:
+    dst_ref: 0x8273
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 7c d9 b5 1d
+
+[2025-03-10 11:35:33 CET] [136.725] [-12.3/-30.4 dBFS] [18.1 dB] [2.8 ppm]
+4D2228 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 3 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 1 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x13f7
+   X.224 COTP Data Ack:
+    dst_ref: 0x8251
+    rseq: 4 credit: 3
+    Checksum: fd 47
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-10 11:35:34 CET] [136.775] [-1.6/-30.2 dBFS] [28.7 dB] [0.1 ppm]
+344217 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 1 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xf3
+   X.224 COTP Data Ack:
+    dst_ref: 0x8273
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 7c d9 b5 1d
+
+[2025-03-10 11:35:40 CET] [136.725] [0.0/-30.6 dBFS] [30.6 dB] [3.4 ppm]
+4CA61F (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 3 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 1 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x1e08
+   X.224 COTP Data Ack:
+    dst_ref: 0x8287
+    rseq: 5 credit: 3
+    Checksum: ef cf
+
+[2025-03-10 11:35:40 CET] [136.725] [-0.0/-30.8 dBFS] [30.7 dB] [3.4 ppm]
+4CA61F (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 4 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 2 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x1e09
+   X.224 COTP Data:
+    dst_ref: 0x8287
+    sseq: 4 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    Checksum: fb 0f
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 4
+      Msg Ref: 5
+      Timestamp: 2025-03-10 10:35:39
+      Logical ACK: notRequired
+     Message data:
+      LOGICAL ACKNOWLEDGMENT
+
+[2025-03-10 11:35:48 CET] [136.775] [1.2/-29.8 dBFS] [31.0 dB] [-0.2 ppm]
+34604D (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 2 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x118
+   X.224 COTP Data Ack:
+    dst_ref: 0x8269
+    rseq: 6 credit: 3
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 5a b4 8b 40
+
+[2025-03-10 11:35:49 CET] [136.725] [-2.9/-30.1 dBFS] [27.2 dB] [3.6 ppm]
+440667 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 4 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x184
+   X.224 COTP Data Ack:
+    dst_ref: 0x8274
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: cf d3 57 e2
+
+[2025-03-10 11:35:54 CET] [136.725] [0.2/-29.6 dBFS] [29.8 dB] [3.5 ppm]
+4CA61F (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 5 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 3 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x1e0a
+   X.224 COTP Data:
+    dst_ref: 0x8287
+    sseq: 5 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    Checksum: aa 32
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 5
+      Msg Ref: 5
+      Timestamp: 2025-03-10 10:35:52
+      Logical ACK: required
+     Message data:
+      WILCO
+
+[2025-03-10 11:35:56 CET] [136.725] [-0.0/-29.9 dBFS] [29.9 dB] [3.4 ppm]
+4CA61F (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 6 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 4 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x1e0b
+   X.224 COTP Data Ack:
+    dst_ref: 0x8287
+    rseq: 6 credit: 3
+    Checksum: eb d2
+
+[2025-03-10 11:36:00 CET] [136.725] [0.1/-29.5 dBFS] [29.6 dB] [-0.2 ppm]
+0A0022 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 0 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x4a
+   X.224 COTP Data Ack:
+    dst_ref: 0x8283
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: ad 9d b6 70
+
+[2025-03-10 11:36:07 CET] [136.725] [-13.0/-30.3 dBFS] [17.3 dB] [3.0 ppm]
+345084 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 0 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x10a
+   X.224 COTP Data Ack:
+    dst_ref: 0x8941
+    rseq: 9 credit: 4
+    ATN checksum: 7c c9 59 93
+
+[2025-03-10 11:36:13 CET] [136.725] [-12.1/-30.2 dBFS] [18.1 dB] [4.3 ppm]
+34660E (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 4 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x110
+   X.224 COTP Data Ack:
+    dst_ref: 0x824c
+    rseq: 6 credit: 3
+    ATN checksum: 81 57 e9 e8
+
+[2025-03-10 11:36:18 CET] [136.725] [-9.5/-30.3 dBFS] [20.9 dB] [2.3 ppm]
+501C0C (Aircraft, Airborne) -> 11984A (Ground station): Response
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Response
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   Connection management: 05
+   XID sequencing: seq: 1 retry: 0
+   AVLC specific options: 25
+   Destination airport: LEPA
+
+[2025-03-10 11:36:22 CET] [136.725] [-7.6/-30.3 dBFS] [22.7 dB] [3.0 ppm]
+345084 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 1 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x10b
+   X.224 COTP Data Ack:
+    dst_ref: 0x8281
+    rseq: 0 credit: 1
+    Flow control:
+     Acked TPDU nr: 0
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 63 18 4c a9
+
+[2025-03-10 11:36:24 CET] [136.775] [-6.7/-30.1 dBFS] [23.4 dB] [3.5 ppm]
+4D24C2 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Initiation
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 80
+  VDL params:
+   Parameter set ID: V
+   Connection management: 01
+   XID sequencing: seq: 1 retry: 0
+   AVLC specific options: 25
+   Destination airport: LRTR
+   Aircraft location: 42.8N 6.2E 35000 ft
+
+[2025-03-10 11:36:25 CET] [136.725] [-10.1/-29.8 dBFS] [19.7 dB] [4.2 ppm]
+34660E (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 5 rseq: 5 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .EC-NOM Flight: V709WY
+  Mode: 2 Label: 5U Blk id: 8 More: 0 Ack: ! Msg num: M31A
+  Message:
+   LFRS LFBD-SA
+
+[2025-03-10 11:36:28 CET] [136.775] [-8.3/-29.9 dBFS] [21.6 dB] [3.4 ppm]
+4D24C2 (Aircraft, Airborne) -> 210DC5 (Ground station): Command
+AVLC type: I sseq: 6 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x46 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x1b1
+   X.224 COTP Data Ack:
+    dst_ref: 0x828c
+    rseq: 6 credit: 3
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 0e 0b d9 18
+
+[2025-03-10 11:36:32 CET] [136.775] [-7.5/-30.2 dBFS] [22.7 dB] [3.2 ppm]
+4D24C2 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Initiation
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 80
+  VDL params:
+   Parameter set ID: V
+   Connection management: 01
+   XID sequencing: seq: 1 retry: 1
+   AVLC specific options: 25
+   Destination airport: LRTR
+   Aircraft location: 42.8N 6.2E 35000 ft
+
+[2025-03-10 11:36:35 CET] [136.975] [-9.1/-30.2 dBFS] [21.1 dB] [0.9 ppm]
+392AE6 (Aircraft, Airborne) -> 26CA77 (Ground station): Command
+AVLC type: I sseq: 2 rseq: 7 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .F-GKXG Flight: AF17RB
+  Mode: 2 Label: H1 Blk id: 2 More: 0 Ack: ! Msg num: D60A
+  Sublabel: DF
+  Message:
+   A320,004409,1,1,TB000000/REP004,01,01,1/CCF-GKXG,MAR10,103616,LFML,LFPG,0017/C0SC055033470052/C105,36049,4000,03,0000,0,0000,06,X/CE0142,01902,167,261,6531,305,C31047/EC699268,34466,00516,22829,23/EE849278,08489,10103,07515,23/N101,00,00,01,00,00,00,00,00,7760/N201,00,00,01,00,00,00,00,00,7560/S10913,0914,0980,7760,4333,3645,0923/S20913,0913,0979,7560,4194,3662,0923/T15265,1205,016,136,----,017,002/T25210,1201,016,136,----,017,N00/V106,13,172,214,01,01,00000/V209,09,194,328,01,01,00000/V3050,070,1,1,00080,00010,2221/V4055,068,1,1,00060,00010,2221/X114500,0115,100,037,1575/X214500,0107,100,037,1568/:
+
+[2025-03-10 11:36:35 CET] [136.725] [-4.2/-30.2 dBFS] [26.0 dB] [-0.3 ppm]
+0A0022 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 3 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x4c
+   X.224 COTP Data Ack:
+    dst_ref: 0x8283
+    rseq: 5 credit: 3
+    ATN checksum: 3f 6f ba b9
+
+[2025-03-10 11:36:35 CET] [136.725] [-4.2/-30.2 dBFS] [26.0 dB] [-0.3 ppm]
+0A0022 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 4 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x4d
+   X.224 COTP Data:
+    dst_ref: 0x8283
+    sseq: 4 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    ATN checksum: a6 2b 60 fa
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 4
+      Msg Ref: 5
+      Timestamp: 2025-03-10 10:36:34
+      Logical ACK: notRequired
+     Message data:
+      LOGICAL ACKNOWLEDGMENT
+
+[2025-03-10 11:36:40 CET] [136.725] [-11.8/-30.0 dBFS] [18.2 dB] [1.3 ppm]
+4952C2 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 0 rseq: 7 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .CS-TVB Flight: TP0868
+  Mode: 2 Label: 30 Blk id: 9 More: 0 Ack: ! Msg num: M54A
+  Message:
+   1118
+
+[2025-03-10 11:36:43 CET] [136.725] [-4.4/-30.2 dBFS] [25.8 dB] [-0.5 ppm]
+0A0022 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 5 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x4e
+   X.224 COTP Data:
+    dst_ref: 0x8283
+    sseq: 5 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    ATN checksum: b1 e9 33 02
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 5
+      Msg Ref: 5
+      Timestamp: 2025-03-10 10:36:42
+      Logical ACK: required
+     Message data:
+      WILCO
+
+[2025-03-10 11:36:45 CET] [136.725] [-6.9/-30.0 dBFS] [23.1 dB] [-0.3 ppm]
+0A0022 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 7 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 7 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x4f
+   X.224 COTP Data Ack:
+    dst_ref: 0x8283
+    rseq: 6 credit: 3
+    ATN checksum: 94 3c ec 64
+
+[2025-03-10 11:36:50 CET] [136.725] [-6.0/-30.0 dBFS] [24.0 dB] [-0.6 ppm]
+0A0022 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 7 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 7 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x4f
+   X.224 COTP Data Ack:
+    dst_ref: 0x8283
+    rseq: 6 credit: 3
+    ATN checksum: 94 3c ec 64
+
+[2025-03-10 11:36:58 CET] [136.975] [-6.7/-30.2 dBFS] [23.4 dB] [0.7 ppm]
+392AE6 (Aircraft, Airborne) -> 26CA77 (Ground station): Command
+AVLC type: I sseq: 4 rseq: 0 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .F-GKXG Flight: AF17RB
+  Mode: 2 Label: H1 Blk id: 3 More: 0 Ack: ! Msg num: C05A
+  Sublabel: CF
+  Message:
+   FLR/FR25031010350030310005SDAC1:NO DATA FROM      PHC1/IDECAM 1,ECAM 2
+
+[2025-03-10 11:37:00 CET] [136.725] [-10.1/-30.0 dBFS] [19.9 dB] [2.9 ppm]
+345084 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x10c
+   X.224 COTP Data Ack:
+    dst_ref: 0x8941
+    rseq: 9 credit: 4
+    Flow control:
+     Acked TPDU nr: 8
+     Acked subsequence: 0
+     Acked credit: 10
+    ATN checksum: 3b 06 4c f4
+
+[2025-03-10 11:37:01 CET] [136.975] [-12.6/-30.1 dBFS] [17.5 dB] [0.2 ppm]
+3991E7 (Aircraft, Airborne) -> 270CB7 (Ground station): Command
+AVLC type: I sseq: 3 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x12c
+   X.224 COTP Data Ack:
+    dst_ref: 0x88bd
+    rseq: 2 credit: 2
+    ATN checksum: 95 38 0e e1
+
+[2025-03-10 11:37:02 CET] [136.725] [-8.0/-30.2 dBFS] [22.2 dB] [1.3 ppm]
+4952C2 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 1 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x151
+   X.224 COTP Data Ack:
+    dst_ref: 0x8290
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: b7 e7 70 f6
+
+[2025-03-10 11:37:02 CET] [136.775] [1.1/-29.9 dBFS] [31.1 dB] [0.0 ppm]
+344217 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 2 rseq: 6 poll: 0
+ ACARS:
+  Reassembly: in progress
+  Reg: .EC-LPQ Flight: UX1082
+  Mode: 2 Label: H1 Blk id: 1 More: 1 Ack: ! Msg num: F28A
+  Sublabel: M1
+  Message:
+   POSN43290E005589,KOPER,103658,390,PADKO,104138,NILDU,M53,232043,137/FHPADKO,104138,245K,3900,133,M53,235045,457,N,242,32.NILDU,105429,245K,3900,123,M53,237046,457,N,228,88.NENDA,110310,245K,3900,116,M53,241049,457,N,234,59.BCN,110835,245K,3900,111,M53,242052,457,N,232,37.ANTON,111119,245K,3900,109,M53,241051,457,N,261,19.XIKEN,111454,245K,3900,106,M53,241050,457,N,261,24.OSLAP,111815,245K,3900,104,M53,241049,457,N,260,23.SALAS,111931,245K,3900,103,M53,241048,457,N,260,9.RAMON,112438,245K,3900,98,M53,242046,457,N,260,35.NEXAS,112812,245K,3900,96,M53,244046,457,N,250,25.DISVU,113131,245K,3900,93,M53,247045,457,N,250,23.ADUXO,113715,279K,1500,91,M40,263033,419,Y,249,39.MD505,113911,250K,1500,91,M34,261031,362,Y,249,12.NOSKO,114415,220K,1000,90,M19,254024,284,Y,299,26.RBO,114936,220K,999,89,M5,241018,256,Y,301,23.LULER,115120,220K,800,88,M1,241014,244,Y,301,7.MD626,115212,210K,720,88,P1,241012,234,Y,282,3.MD623,115300,200K,650,88,P2,241010,221,Y,260,3.MD620,115355,185K,600,87,P3,2410
+
+[2025-03-10 11:37:03 CET] [136.775] [1.2/-29.9 dBFS] [31.1 dB] [0.1 ppm]
+344217 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 4 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xf4
+   X.224 COTP Data Ack:
+    dst_ref: 0x8273
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 7c d9 b5 1d
+
+[2025-03-10 11:37:06 CET] [136.775] [1.2/-29.7 dBFS] [30.9 dB] [0.2 ppm]
+344217 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 5 rseq: 0 poll: 0
+ ACARS:
+  Reassembly: complete
+  Reg: .EC-LPQ Flight: UX1082
+  Mode: 2 Label: H1 Blk id: 2 More: 0 Ack: ! Msg num: F28B
+  Sublabel: M1
+  Message:
+   POSN43290E005589,KOPER,103658,390,PADKO,104138,NILDU,M53,232043,137/FHPADKO,104138,245K,3900,133,M53,235045,457,N,242,32.NILDU,105429,245K,3900,123,M53,237046,457,N,228,88.NENDA,110310,245K,3900,116,M53,241049,457,N,234,59.BCN,110835,245K,3900,111,M53,242052,457,N,232,37.ANTON,111119,245K,3900,109,M53,241051,457,N,261,19.XIKEN,111454,245K,3900,106,M53,241050,457,N,261,24.OSLAP,111815,245K,3900,104,M53,241049,457,N,260,23.SALAS,111931,245K,3900,103,M53,241048,457,N,260,9.RAMON,112438,245K,3900,98,M53,242046,457,N,260,35.NEXAS,112812,245K,3900,96,M53,244046,457,N,250,25.DISVU,113131,245K,3900,93,M53,247045,457,N,250,23.ADUXO,113715,279K,1500,91,M40,263033,419,Y,249,39.MD505,113911,250K,1500,91,M34,261031,362,Y,249,12.NOSKO,114415,220K,1000,90,M19,254024,284,Y,299,26.RBO,114936,220K,999,89,M5,241018,256,Y,301,23.LULER,115120,220K,800,88,M1,241014,244,Y,301,7.MD626,115212,210K,720,88,P1,241012,234,Y,282,3.MD623,115300,200K,650,88,P2,241010,221,Y,260,3.MD620,115355,185K,600,87,P3,241009,203,Y,205,3.MD16L,115511,185K,550,86,P4,241008,202,Y,190,4.FI18L,115656,155K,550,85,P4,241008,169,Y,180,6.RW18L,120053,155K,198,80,P11,000000,161,Y,180,11.BRA,,,,,,000000,,Y,180,4.D180M,,,500,,,000000,,Y,180,13.ROFIX,,,500,,,000000,,Y,264,12.ROFIX,,,500,,,000000,,Y,264,0.LEMD,,150K,200,,,000000,159,N,181,3/XX02F8
+
+[2025-03-10 11:37:18 CET] [136.775] [-10.8/-29.5 dBFS] [18.7 dB] [0.9 ppm]
+47A50D (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 4 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x4a Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x1cf
+   X.224 COTP Data Ack:
+    dst_ref: 0x8947
+    rseq: 0 credit: 1
+    ATN checksum: 3d f0 b5 9f
+
+[2025-03-10 11:37:18 CET] [136.775] [-11.4/-29.8 dBFS] [18.3 dB] [0.8 ppm]
+47A50D (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 5 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x4a Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x1d0
+   X.224 COTP Data Ack:
+    dst_ref: 0x8947
+    rseq: 0 credit: 1
+    Flow control:
+     Acked TPDU nr: 0
+     Acked subsequence: 0
+     Acked credit: 1
+    ATN checksum: 83 1d 06 3d
+
+[2025-03-10 11:37:21 CET] [136.775] [-4.3/-29.5 dBFS] [25.2 dB] [-0.3 ppm]
+34604D (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 4 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x119
+   X.224 COTP Data Ack:
+    dst_ref: 0x8269
+    rseq: 6 credit: 3
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 5a b4 8b 40
+
+[2025-03-10 11:37:21 CET] [136.725] [0.5/-30.2 dBFS] [30.7 dB] [3.1 ppm]
+440667 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 5 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x185
+   X.224 COTP Data Ack:
+    dst_ref: 0x8274
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: cf d3 57 e2
+
+[2025-03-10 11:37:27 CET] [136.725] [0.9/-29.9 dBFS] [30.8 dB] [3.2 ppm]
+4CA61F (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 7 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 5 rseq: 7 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x1e0c
+   X.224 COTP Data Ack:
+    dst_ref: 0x8287
+    rseq: 6 credit: 3
+    Checksum: f2 18
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-10 11:37:32 CET] [136.725] [-3.0/-29.8 dBFS] [26.7 dB] [2.2 ppm]
+501C0C (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 3 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xad
+   X.224 COTP Data Ack:
+    dst_ref: 0x82a3
+    rseq: 5 credit: 3
+    ATN checksum: 34 89 7e 50
+
+[2025-03-10 11:37:32 CET] [136.725] [-3.0/-29.8 dBFS] [26.7 dB] [2.2 ppm]
+501C0C (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 4 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xae
+   X.224 COTP Data:
+    dst_ref: 0x82a3
+    sseq: 4 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    ATN checksum: 45 d4 24 5c
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 4
+      Msg Ref: 6
+      Timestamp: 2025-03-10 10:37:32
+      Logical ACK: notRequired
+     Message data:
+      LOGICAL ACKNOWLEDGMENT
+
+[2025-03-10 11:37:34 CET] [136.725] [-5.1/-30.3 dBFS] [25.2 dB] [0.4 ppm]
+0A0077 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x42
+   X.224 COTP Data Ack:
+    dst_ref: 0x828e
+    rseq: 3 credit: 2
+    Flow control:
+     Acked TPDU nr: 3
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 52 4e 22 54
+
+[2025-03-10 11:37:40 CET] [136.725] [-5.4/-29.7 dBFS] [24.3 dB] [2.1 ppm]
+501C0C (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 5 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xaf
+   X.224 COTP Data:
+    dst_ref: 0x82a3
+    sseq: 5 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    ATN checksum: c2 b6 84 75
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 5
+      Msg Ref: 6
+      Timestamp: 2025-03-10 10:37:40
+      Logical ACK: required
+     Message data:
+      WILCO
+
+[2025-03-10 11:37:42 CET] [136.725] [-4.5/-29.8 dBFS] [25.4 dB] [2.2 ppm]
+501C0C (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 7 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xb0
+   X.224 COTP Data Ack:
+    dst_ref: 0x82a3
+    rseq: 6 credit: 3
+    ATN checksum: 89 56 b0 fa
+
+[2025-03-10 11:37:48 CET] [136.725] [-8.4/-29.9 dBFS] [21.5 dB] [-0.9 ppm]
+342591 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 7 rseq: 5 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .EC-KHN Flight: VY78VB
+  Mode: 2 Label: B9 Blk id: 1 More: 0 Ack: ! Msg num: M28A
+  Message:
+   /LEBL.TI2/040LEBLA3461
+
+[2025-03-10 11:37:51 CET] [136.725] [-9.8/-30.0 dBFS] [20.2 dB] [-0.8 ppm]
+342591 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 7 rseq: 5 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .EC-KHN Flight: VY78VB
+  Mode: 2 Label: B9 Blk id: 1 More: 0 Ack: ! Msg num: M28A
+  Message:
+   /LEBL.TI2/040LEBLA3461
+
+[2025-03-10 11:37:54 CET] [136.725] [-12.0/-30.2 dBFS] [18.2 dB] [2.8 ppm]
+345084 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 5 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x10f
+   X.224 COTP Data Ack:
+    dst_ref: 0x8281
+    rseq: 0 credit: 1
+    Flow control:
+     Acked TPDU nr: 0
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 63 18 4c a9
+
+[2025-03-10 11:37:54 CET] [136.725] [-4.8/-30.0 dBFS] [25.2 dB] [2.2 ppm]
+501C0C (Aircraft, Airborne) -> 1190AA (Ground station): Command
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Initiation
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   Connection management: 05
+   XID sequencing: seq: 7 retry: 0
+   AVLC specific options: 25
+   Destination airport: LEPA
+
+[2025-03-10 11:38:08 CET] [136.775] [-11.8/-29.4 dBFS] [17.5 dB] [0.4 ppm]
+47A50D (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 7 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x49 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x1d1
+   X.224 COTP Data Ack:
+    dst_ref: 0x8279
+    rseq: 5 credit: 3
+    Flow control:
+     Acked TPDU nr: 5
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 27 c3 ac fc
+
+[2025-03-10 11:38:17 CET] [136.975] [-11.9/-30.2 dBFS] [18.4 dB] [-0.0 ppm]
+3991E7 (Aircraft, Airborne) -> 270CB7 (Ground station): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 7 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x46 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x130
+   X.224 COTP Data:
+    dst_ref: 0x82c0
+    sseq: 3 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    ATN checksum: a6 73 9b 94
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 3
+      Msg Ref: 3
+      Timestamp: 2025-03-10 10:38:13
+      Logical ACK: required
+     Message data:
+      WILCO
+
+[2025-03-10 11:38:18 CET] [136.975] [-11.8/-30.1 dBFS] [18.3 dB] [2.6 ppm]
+40815B (Aircraft, Airborne) -> 10FA5A (Ground station): Command
+AVLC type: I sseq: 6 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x114
+   X.224 COTP Data Ack:
+    dst_ref: 0x829f
+    rseq: 2 credit: 2
+    Flow control:
+     Acked TPDU nr: 2
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 99 24 bf ad
+
+[2025-03-10 11:38:19 CET] [136.725] [-0.9/-30.1 dBFS] [29.2 dB] [-0.8 ppm]
+0A0022 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 0 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x50
+   X.224 COTP Data Ack:
+    dst_ref: 0x8283
+    rseq: 6 credit: 3
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: a3 d2 7d 7a
+
+[2025-03-10 11:38:23 CET] [136.825] [-10.5/-29.6 dBFS] [19.1 dB] [1.2 ppm]
+39DD45 (Aircraft, Airborne) -> 119C2A (Ground station): Command
+AVLC type: I sseq: 4 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xaf
+   X.224 COTP Data Ack:
+    dst_ref: 0x826e
+    rseq: 6 credit: 3
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 02 8b c5 e5
+
+[2025-03-10 11:38:29 CET] [136.725] [1.0/-30.5 dBFS] [31.5 dB] [2.8 ppm]
+440667 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 6 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x186
+   X.224 COTP Data Ack:
+    dst_ref: 0x8274
+    rseq: 5 credit: 3
+    ATN checksum: 70 a5 97 e0
+   X.224 COTP Data:
+    dst_ref: 0x8274
+    sseq: 4 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    ATN checksum: 46 a4 e9 b8
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 4
+      Msg Ref: 5
+      Timestamp: 2025-03-10 10:38:28
+      Logical ACK: notRequired
+     Message data:
+      LOGICAL ACKNOWLEDGMENT
+
+[2025-03-10 11:38:32 CET] [136.725] [-3.2/-30.4 dBFS] [27.2 dB] [-0.8 ppm]
+342591 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xa3
+   X.224 COTP Data Ack:
+    dst_ref: 0x829d
+    rseq: 10 credit: 4
+    Flow control:
+     Acked TPDU nr: 10
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: af 1a c6 cb
+
+[2025-03-10 11:38:34 CET] [136.725] [1.1/-30.2 dBFS] [31.3 dB] [2.9 ppm]
+440667 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 7 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x187
+   X.224 COTP Data:
+    dst_ref: 0x8274
+    sseq: 5 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    ATN checksum: 88 32 d8 f8
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 5
+      Msg Ref: 5
+      Timestamp: 2025-03-10 10:38:33
+      Logical ACK: required
+     Message data:
+      WILCO
+
+[2025-03-10 11:38:35 CET] [136.775] [1.1/-29.7 dBFS] [30.8 dB] [0.1 ppm]
+344217 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 7 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 7 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xf6
+   X.224 COTP Data Ack:
+    dst_ref: 0x8273
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 7c d9 b5 1d
+
+[2025-03-10 11:38:35 CET] [136.725] [-4.5/-30.0 dBFS] [25.5 dB] [-0.7 ppm]
+342591 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xa3
+   X.224 COTP Data Ack:
+    dst_ref: 0x829d
+    rseq: 10 credit: 4
+    Flow control:
+     Acked TPDU nr: 10
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: af 1a c6 cb
+
+[2025-03-10 11:38:36 CET] [136.725] [1.1/-30.0 dBFS] [31.1 dB] [2.8 ppm]
+440667 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 0 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x188
+   X.224 COTP Data Ack:
+    dst_ref: 0x8274
+    rseq: 6 credit: 3
+    ATN checksum: c5 72 c9 8b
+
+[2025-03-10 11:38:39 CET] [136.775] [1.2/-29.6 dBFS] [30.8 dB] [0.0 ppm]
+344217 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 7 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 7 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xf6
+   X.224 COTP Data Ack:
+    dst_ref: 0x8273
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 7c d9 b5 1d
+
+[2025-03-10 11:38:44 CET] [136.775] [1.2/-29.9 dBFS] [31.1 dB] [-0.2 ppm]
+344217 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 7 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 7 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xf6
+   X.224 COTP Data Ack:
+    dst_ref: 0x8273
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 7c d9 b5 1d
+
+[2025-03-10 11:38:51 CET] [136.775] [1.1/-29.7 dBFS] [30.9 dB] [0.0 ppm]
+344217 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 7 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 7 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xf6
+   X.224 COTP Data Ack:
+    dst_ref: 0x8273
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 7c d9 b5 1d
+
+[2025-03-10 11:38:57 CET] [136.725] [-10.0/-30.2 dBFS] [20.2 dB] [2.9 ppm]
+345084 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 1 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x110
+   X.224 COTP Data Ack:
+    dst_ref: 0x8941
+    rseq: 9 credit: 4
+    ATN checksum: 7c c9 59 93
+
+[2025-03-10 11:38:59 CET] [136.725] [0.1/-30.1 dBFS] [30.2 dB] [3.1 ppm]
+4CA61F (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 1 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 7 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x1e0e
+   X.224 COTP Data Ack:
+    dst_ref: 0x8287
+    rseq: 6 credit: 3
+    Checksum: f2 18
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-10 11:39:03 CET] [136.725] [0.8/-29.7 dBFS] [30.5 dB] [3.0 ppm]
+4CA61F (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 1 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 7 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x1e0e
+   X.224 COTP Data Ack:
+    dst_ref: 0x8287
+    rseq: 6 credit: 3
+    Checksum: f2 18
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-10 11:39:09 CET] [136.725] [-0.1/-30.3 dBFS] [30.1 dB] [-0.0 ppm]
+0A0077 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 3 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x43
+   X.224 COTP Data Ack:
+    dst_ref: 0x828e
+    rseq: 3 credit: 2
+    Flow control:
+     Acked TPDU nr: 3
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 52 4e 22 54
+
+[2025-03-10 11:39:16 CET] [136.725] [-1.1/-30.0 dBFS] [29.0 dB] [2.2 ppm]
+501C0C (Aircraft, Airborne) -> 1190AA (Ground station): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xb1
+   X.224 COTP Data Ack:
+    dst_ref: 0x82a3
+    rseq: 6 credit: 3
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: fc 97 7d c5
+
+[2025-03-10 11:39:26 CET] [136.725] [-7.3/-30.0 dBFS] [22.6 dB] [2.7 ppm]
+345084 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 6 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x111
+   X.224 COTP Data Ack:
+    dst_ref: 0x8281
+    rseq: 0 credit: 1
+    Flow control:
+     Acked TPDU nr: 0
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 63 18 4c a9
+
+[2025-03-10 11:39:36 CET] [136.775] [-10.2/-29.8 dBFS] [19.5 dB] [0.3 ppm]
+3991E7 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 4 rseq: 4 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .F-HEPH Flight: AF35ZV
+  Mode: 2 Label: 2F Blk id: 8 More: 0 Ack: ! Msg num: M36A
+  Message:
+   1039+4452+641/2950
+
+[2025-03-10 11:39:37 CET] [136.775] [-9.2/-30.1 dBFS] [20.8 dB] [0.7 ppm]
+47A50D (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 3 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x49 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x1d4
+   X.224 COTP Data Ack:
+    dst_ref: 0x8279
+    rseq: 5 credit: 3
+    Flow control:
+     Acked TPDU nr: 5
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 27 c3 ac fc
+
+[2025-03-10 11:39:42 CET] [136.725] [-10.5/-30.0 dBFS] [19.5 dB] [0.7 ppm]
+4952C2 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 5 rseq: 4 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .CS-TVB Flight: TP0868
+  Mode: 2 Label: 5U Blk id: 1 More: 0 Ack: ! Msg num: M56A
+  Message:
+   LFMN LIML LIPE LIPZ-SA
+
+[2025-03-10 11:39:56 CET] [136.725] [-9.3/-30.0 dBFS] [20.7 dB] [-0.8 ppm]
+0A0022 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 1 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x51
+   X.224 COTP Data Ack:
+    dst_ref: 0x8283
+    rseq: 6 credit: 3
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: a3 d2 7d 7a
+
+[2025-03-10 11:40:01 CET] [136.775] [-9.9/-29.4 dBFS] [19.5 dB] [0.7 ppm]
+47A50D (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 6 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x49 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x1d7
+   X.224 COTP Data:
+    dst_ref: 0x8279
+    sseq: 6 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    ATN checksum: 61 43 5d 2e
+    X.227 ACSE Release Response:
+     Reason: normal
+     CPDLC Downlink Message:
+      Header:
+       Msg ID: 6
+       Msg Ref: 7
+       Timestamp: 2025-03-10 10:40:01
+       Logical ACK: notRequired
+      Message data:
+       WILCO
+
+[2025-03-10 11:40:01 CET] [136.775] [-9.8/-29.7 dBFS] [19.9 dB] [0.6 ppm]
+47A50D (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 7 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x4a Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x1d8
+   X.224 COTP Data:
+    dst_ref: 0x8947
+    sseq: 0 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    ATN checksum: c9 c6 f6 aa
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 0
+      Timestamp: 2025-03-10 10:40:01
+      Logical ACK: required
+     Message data:
+      CURRENT DATA AUTHORITY
+
+[2025-03-10 11:40:02 CET] [136.725] [-9.0/-30.5 dBFS] [21.5 dB] [-0.8 ppm]
+0A0022 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 1 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x51
+   X.224 COTP Data Ack:
+    dst_ref: 0x8283
+    rseq: 6 credit: 3
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: a3 d2 7d 7a
+
+[2025-03-10 11:40:03 CET] [136.775] [-9.5/-29.4 dBFS] [19.9 dB] [0.6 ppm]
+47A50D (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 1 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x49 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x1d9
+   X.224 COTP Disconnect Confirm:
+    src_ref: 0x080c dst_ref: 0x8279
+    ATN checksum: cb 80 8d 00
+
+[2025-03-10 11:40:03 CET] [136.775] [-9.2/-29.7 dBFS] [20.5 dB] [0.5 ppm]
+47A50D (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 2 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x4a Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x1da
+   X.224 COTP Data Ack:
+    dst_ref: 0x8947
+    rseq: 1 credit: 2
+    ATN checksum: b0 90 b0 8f
+
+[2025-03-10 11:40:04 CET] [136.775] [-9.3/-30.2 dBFS] [20.9 dB] [0.8 ppm]
+47A50D (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 4 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x4a Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x1db
+   X.224 COTP Data Ack:
+    dst_ref: 0x8947
+    rseq: 2 credit: 2
+    ATN checksum: 06 5d e2 3a
+
+[2025-03-10 11:40:04 CET] [136.775] [-9.3/-30.2 dBFS] [20.9 dB] [0.8 ppm]
+47A50D (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 5 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x4a Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x1dc
+   X.224 COTP Data:
+    dst_ref: 0x8947
+    sseq: 1 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    ATN checksum: ac 52 8e 84
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 1
+      Msg Ref: 1
+      Timestamp: 2025-03-10 10:40:04
+      Logical ACK: notRequired
+     Message data:
+      LOGICAL ACKNOWLEDGMENT
+
+[2025-03-10 11:40:06 CET] [136.725] [-11.0/-29.8 dBFS] [18.9 dB] [0.8 ppm]
+4952C2 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 0 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x154
+   X.224 COTP Data Ack:
+    dst_ref: 0x8290
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: b7 e7 70 f6
+
+[2025-03-10 11:40:07 CET] [136.725] [-4.3/-30.2 dBFS] [25.9 dB] [-1.0 ppm]
+342591 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 3 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xa4
+   X.224 COTP Data Ack:
+    dst_ref: 0x829d
+    rseq: 10 credit: 4
+    Flow control:
+     Acked TPDU nr: 10
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: af 1a c6 cb
+
+[2025-03-10 11:40:09 CET] [136.725] [1.1/-29.7 dBFS] [30.7 dB] [2.3 ppm]
+440667 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 1 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x189
+   X.224 COTP Data Ack:
+    dst_ref: 0x8274
+    rseq: 6 credit: 3
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: c5 09 1e ec
+
+[2025-03-10 11:40:14 CET] [136.775] [1.0/-29.7 dBFS] [30.7 dB] [-0.7 ppm]
+344217 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 1 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xf7
+   X.224 COTP Data Ack:
+    dst_ref: 0x8273
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 7c d9 b5 1d
+
+[2025-03-10 11:40:16 CET] [136.725] [-0.0/-30.4 dBFS] [30.4 dB] [-1.2 ppm]
+3444D1 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 4 rseq: 4 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .EC-MBE Flight: VY19QZ
+  Mode: 2 Label: 16 Blk id: 1 More: 0 Ack: ! Msg num: M08A
+  Message:
+   104012,34037,1128, 102,N 43.642 E  6.102, 754
+
+[2025-03-10 11:40:16 CET] [136.725] [-0.1/-30.3 dBFS] [30.2 dB] [-1.1 ppm]
+3444D1 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: U (XID) P/F: 1
+ XID: Link Establishment
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 80
+  VDL params:
+   Parameter set ID: V
+   Connection management: 00
+   XID sequencing: seq: 1 retry: 0
+   AVLC specific options: 25
+   Modulation support: VDL-M2, D8PSK, 31500 bps
+   Destination airport: LFSB
+   Aircraft location: 43.6N 6.0E 34000 ft
+
+[2025-03-10 11:40:17 CET] [136.725] [-9.0/-30.2 dBFS] [21.3 dB] [-0.7 ppm]
+0A0022 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 1 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x51
+   X.224 COTP Data Ack:
+    dst_ref: 0x8283
+    rseq: 6 credit: 3
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: a3 d2 7d 7a
+
+[2025-03-10 11:40:17 CET] [136.725] [0.3/-30.1 dBFS] [30.4 dB] [-1.3 ppm]
+3444D1 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x4b
+   IDRP Open: seq: 4 ack: 1 credit_offered: 3 credit_avail: 4
+    Hold Time: 900 seconds
+    Max. PDU size: 3000 octets
+    Source RDI: 47 00 27 41 56 4c 47 00 34 44 d1	"G.'AVLG.4D."
+    RIB Attribute Set:
+     RibAtt #0:
+      Security:
+       Reg ID: 06 04 2b 1b 00 00
+    Auth mechanism: simple checksum
+
+[2025-03-10 11:40:18 CET] [136.725] [0.3/-30.4 dBFS] [30.7 dB] [-1.3 ppm]
+3444D1 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 3 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x4c
+   IDRP Update: seq: 5 ack: 1 credit_offered: 3 credit_avail: 3
+    Route:
+     ID: 5
+     Local preference: 0
+    RD path:
+     RD_SEQ:
+      47 00 27 41 56 4c 47 00 34 44 d1	"G.'AVLG.4D."
+    RD hop count: 1
+    Capacity: 13
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 88
+     Dest. address prefix: 47 00 27 41 56 4c 47 00 34 44 d1	"G.'AVLG.4D."
+
+[2025-03-10 11:40:18 CET] [136.725] [0.3/-30.4 dBFS] [30.7 dB] [-1.3 ppm]
+3444D1 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 4 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x4d
+   IDRP Update: seq: 6 ack: 1 credit_offered: 3 credit_avail: 2
+    Route:
+     ID: 6
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: all
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 41 56 4c 47 00 34 44 d1	"G.'AVLG.4D."
+    RD hop count: 1
+    Capacity: 13
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 88
+     Dest. address prefix: 47 00 27 41 56 4c 47 00 34 44 d1	"G.'AVLG.4D."
+
+[2025-03-10 11:40:18 CET] [136.725] [0.4/-30.3 dBFS] [30.7 dB] [-1.4 ppm]
+3444D1 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 5 rseq: 6 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .EC-MBE Flight: VY19QZ
+  Mode: 2 Label: 16 Blk id: 3 More: 0 Ack: ! Msg num: M08A
+  Message:
+   104012,34037,1128, 102,N 43.642 E  6.102, 754
+
+[2025-03-10 11:40:20 CET] [136.725] [-10.5/-30.3 dBFS] [19.8 dB] [1.7 ppm]
+0A008E (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 7 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x42
+   X.224 COTP Data Ack:
+    dst_ref: 0x829e
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 8a 75 53 99
+
+[2025-03-10 11:40:29 CET] [136.725] [-5.6/-30.2 dBFS] [24.6 dB] [-0.3 ppm]
+0A0077 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 6 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 7 rseq: 7 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x45
+   X.224 COTP Data Ack:
+    dst_ref: 0x828e
+    rseq: 4 credit: 3
+    ATN checksum: bb fc cf 3d
+
+[2025-03-10 11:40:29 CET] [136.725] [-5.6/-30.2 dBFS] [24.6 dB] [-0.3 ppm]
+0A0077 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 7 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 7 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x46
+   X.224 COTP Data:
+    dst_ref: 0x828e
+    sseq: 3 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    ATN checksum: e7 0c eb 1a
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 3
+      Msg Ref: 4
+      Timestamp: 2025-03-10 10:40:28
+      Logical ACK: notRequired
+     Message data:
+      LOGICAL ACKNOWLEDGMENT
+
+[2025-03-10 11:40:31 CET] [136.725] [-1.4/-30.1 dBFS] [28.6 dB] [2.5 ppm]
+4CA61F (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 0 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x1e0f
+   X.224 COTP Data Ack:
+    dst_ref: 0x8287
+    rseq: 6 credit: 3
+    Checksum: f2 18
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-10 11:40:33 CET] [136.725] [-0.7/-30.4 dBFS] [29.7 dB] [2.1 ppm]
+440667 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 4 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .OE-LBK Flight: OS82EB
+  Mode: 2 Label: 1L Blk id: 9 More: 0 Ack: ! Msg num: M46A
+  Message:
+   00031266256(U 339G99Q3H)439U9 9 5944K  MUK3))4///3 9A3
+
+[2025-03-10 11:40:35 CET] [136.725] [-5.3/-30.2 dBFS] [24.9 dB] [-0.1 ppm]
+0A0077 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 0 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x47
+   X.224 COTP Data:
+    dst_ref: 0x828e
+    sseq: 4 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    ATN checksum: 16 ea cd 9b
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 4
+      Msg Ref: 4
+      Timestamp: 2025-03-10 10:40:35
+      Logical ACK: required
+     Message data:
+      WILCO
+
+[2025-03-10 11:40:37 CET] [136.725] [-7.4/-29.9 dBFS] [22.6 dB] [-0.2 ppm]
+0A0077 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x48
+   X.224 COTP Data Ack:
+    dst_ref: 0x828e
+    rseq: 5 credit: 3
+    ATN checksum: 11 c9 02 e7
+
+[2025-03-10 11:40:45 CET] [136.725] [-8.0/-30.2 dBFS] [22.2 dB] [2.8 ppm]
+345084 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 0 rseq: 7 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .EC-MGF Flight: VY016K
+  Mode: 2 Label: 16 Blk id: 4 More: 0 Ack: ! Msg num: M34A
+  Message:
+   104042,35969,1114,  90,N 43.553 E  7.296, 786
+
+[2025-03-10 11:40:48 CET] [136.725] [-0.8/-30.3 dBFS] [29.5 dB] [2.2 ppm]
+501C0C (Aircraft, Airborne) -> 1190AA (Ground station): Command
+AVLC type: I sseq: 3 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xb2
+   X.224 COTP Data Ack:
+    dst_ref: 0x82a3
+    rseq: 6 credit: 3
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: fc 97 7d c5
+
+[2025-03-10 11:40:48 CET] [136.725] [-9.9/-30.2 dBFS] [20.3 dB] [3.9 ppm]
+34660E (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 1 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x113
+   X.224 COTP Data Ack:
+    dst_ref: 0x824c
+    rseq: 7 credit: 3
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: b3 1f 98 8b
+
+[2025-03-10 11:40:48 CET] [136.725] [-9.9/-30.2 dBFS] [20.3 dB] [3.9 ppm]
+34660E (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x114
+   X.224 COTP Data:
+    dst_ref: 0x824c
+    sseq: 6 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    ATN checksum: e1 32 99 f0
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 6
+      Msg Ref: 7
+      Timestamp: 2025-03-10 10:40:47
+      Logical ACK: notRequired
+     Message data:
+      LOGICAL ACKNOWLEDGMENT
+
+[2025-03-10 11:40:52 CET] [136.725] [0.1/-30.2 dBFS] [30.3 dB] [2.0 ppm]
+501C0C (Aircraft, Airborne) -> 1190AA (Ground station): Command
+AVLC type: I sseq: 3 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xb2
+   X.224 COTP Data Ack:
+    dst_ref: 0x82a3
+    rseq: 6 credit: 3
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: fc 97 7d c5
+
+[2025-03-10 11:40:55 CET] [136.725] [-0.1/-30.5 dBFS] [30.4 dB] [2.1 ppm]
+501C0C (Aircraft, Airborne) -> 1190AA (Ground station): Command
+AVLC type: I sseq: 3 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xb2
+   X.224 COTP Data Ack:
+    dst_ref: 0x82a3
+    rseq: 6 credit: 3
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: fc 97 7d c5
+
+[2025-03-10 11:40:55 CET] [136.725] [-6.6/-30.5 dBFS] [23.9 dB] [3.6 ppm]
+4CAFCF (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 7 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x2af
+   X.224 COTP Data Ack:
+    dst_ref: 0x82a2
+    rseq: 5 credit: 3
+    Checksum: 68 3c
+
+[2025-03-10 11:40:57 CET] [136.725] [-5.9/-30.0 dBFS] [24.1 dB] [3.8 ppm]
+4CAFCF (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 1 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x2b1
+   X.224 COTP Data:
+    dst_ref: 0x82a2
+    sseq: 4 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    Checksum: 07 95
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 4
+      Msg Ref: 5
+      Timestamp: 2025-03-10 10:40:55
+      Logical ACK: notRequired
+     Message data:
+      LOGICAL ACKNOWLEDGMENT
+
+[2025-03-10 11:40:58 CET] [136.725] [-8.1/-30.1 dBFS] [22.0 dB] [4.5 ppm]
+440713 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xab
+   X.224 COTP Data Ack:
+    dst_ref: 0x829b
+    rseq: 3 credit: 2
+    ATN checksum: 4e 1b f6 50
+   X.224 COTP Data:
+    dst_ref: 0x829b
+    sseq: 2 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    ATN checksum: 85 a5 90 20
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 2
+      Msg Ref: 3
+      Timestamp: 2025-03-10 10:40:57
+      Logical ACK: notRequired
+     Message data:
+      LOGICAL ACKNOWLEDGMENT
+
+[2025-03-10 11:40:59 CET] [136.725] [-10.1/-30.5 dBFS] [20.4 dB] [4.1 ppm]
+34660E (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 4 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 7 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x116
+   X.224 COTP Connect Confirm:
+    src_ref: 0x003a dst_ref: 0x442d
+    Initial Credit: 1
+    Protocol class: 4
+    Options: 00 (use normal PDU formats)
+    TPDU size (bytes): 512
+    Called/responding transport selector: 16
+    Calling transport selector: 70 6d
+    Priority: 3
+    Ack time (ms): 1000
+    Inactivity timer (ms): 360000
+    Additional options: 0x00
+    ATN checksum: 63 a3 d7 f1
+    X.225 Session SPDU: Short Accept
+     X.227 ACSE Associate Response:
+      Application context name: { 1.3.27.3.1 }
+      Associate result: accept
+      ATCDownlinkMessage: <empty PDU>
+
+[2025-03-10 11:41:04 CET] [136.725] [-1.6/-30.4 dBFS] [28.7 dB] [-1.5 ppm]
+3444D1 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .EC-MBE Flight: VY19QZ
+  Mode: 2 Label: 5U Blk id: 4 More: 0 Ack: ! Msg num: M09A
+  Message:
+   LSGG LSZH LFSB LFLL-FS
+
+[2025-03-10 11:41:05 CET] [136.775] [-10.0/-30.0 dBFS] [20.0 dB] [0.2 ppm]
+3991E7 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 3 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x136
+   X.224 COTP Data Ack:
+    dst_ref: 0x88bd
+    rseq: 2 credit: 2
+    ATN checksum: 95 38 0e e1
+
+[2025-03-10 11:41:06 CET] [136.725] [-8.1/-30.1 dBFS] [22.1 dB] [4.5 ppm]
+440713 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 3 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 7 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xac
+   X.224 COTP Data:
+    dst_ref: 0x829b
+    sseq: 3 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    ATN checksum: f4 c1 cb 58
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 3
+      Msg Ref: 3
+      Timestamp: 2025-03-10 10:41:04
+      Logical ACK: required
+     Message data:
+      WILCO
+
+[2025-03-10 11:41:08 CET] [136.725] [-8.5/-30.4 dBFS] [21.9 dB] [4.3 ppm]
+440713 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 4 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xad
+   X.224 COTP Data Ack:
+    dst_ref: 0x829b
+    rseq: 4 credit: 3
+    ATN checksum: c1 ba f1 40
+
+[2025-03-10 11:41:19 CET] [136.975] [-12.5/-30.4 dBFS] [17.9 dB] [2.1 ppm]
+40815B (Aircraft, Airborne) -> 10FA5A (Ground station): Command
+AVLC type: I sseq: 1 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 7 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x117
+   X.224 COTP Data Ack:
+    dst_ref: 0x829f
+    rseq: 2 credit: 2
+    Flow control:
+     Acked TPDU nr: 2
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 99 24 bf ad
+
+[2025-03-10 11:41:23 CET] [136.725] [-11.8/-30.3 dBFS] [18.5 dB] [0.8 ppm]
+4952C2 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x156
+   X.224 COTP Connect Confirm:
+    src_ref: 0x0042 dst_ref: 0x8962
+    Initial Credit: 1
+    Protocol class: 4
+    Options: 00 (use normal PDU formats)
+    TPDU size (bytes): 1024
+    Called/responding transport selector: 16
+    Calling transport selector: 70 6d
+    Priority: 3
+    Ack time (ms): 1000
+    Inactivity timer (ms): 360000
+    Additional options: 0x00
+    ATN checksum: 8b 47 cc dc
+    X.225 Session SPDU: Short Accept
+     X.227 ACSE Associate Response:
+      Application context name: { 1.3.27.3.2 }
+      Associate result: accept
+      ATCDownlinkMessage: <empty PDU>
+
+[2025-03-10 11:41:24 CET] [136.725] [-11.5/-30.9 dBFS] [19.3 dB] [-0.7 ppm]
+0A0022 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 3 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x53
+   X.224 COTP Data Ack:
+    dst_ref: 0x8283
+    rseq: 6 credit: 3
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: a3 d2 7d 7a
+
+[2025-03-10 11:41:25 CET] [136.725] [-12.9/-30.9 dBFS] [17.9 dB] [2.5 ppm]
+4D2386 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 5 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x11eb
+   X.224 COTP Data Ack:
+    dst_ref: 0x82a4
+    rseq: 4 credit: 3
+    Checksum: 5d 94
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-10 11:41:29 CET] [136.775] [-11.7/-29.9 dBFS] [18.2 dB] [2.9 ppm]
+4D24C2 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 0 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 7 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x46 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x1b7
+   X.224 COTP Data Ack:
+    dst_ref: 0x828c
+    rseq: 7 credit: 3
+    Flow control:
+     Acked TPDU nr: 7
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 09 a5 3d 1d
+
+[2025-03-10 11:41:32 CET] [136.775] [-11.7/-30.5 dBFS] [18.8 dB] [2.9 ppm]
+4D24C2 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 0 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 7 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x46 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x1b7
+   X.224 COTP Data Ack:
+    dst_ref: 0x828c
+    rseq: 7 credit: 3
+    Flow control:
+     Acked TPDU nr: 7
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 09 a5 3d 1d
+
+[2025-03-10 11:41:36 CET] [136.725] [-0.9/-30.4 dBFS] [29.5 dB] [-0.5 ppm]
+0A0077 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 4 rseq: 2 poll: 0
+ ACARS:
+  Reassembly: in progress
+  Reg: .7T-VKG Flight: AH1074
+  Mode: 2 Label: H1 Blk id: 3 More: 1 Ack: ! Msg num: F06A
+  Sublabel: M1
+  Message:
+   POSN43502E004458,MRM01,104133,360,MTL01,104655,ETREK,M54,230035,136/RP:DA:DAAG:AA:LFQQ:CR:OFP005012(26O)..MTL01..ETREK.UM976.MOPEM..CACHI..AVLON.UM976.KOPOR.UN874.NURMO.N874.CMB:A:CMB5D:F:ASBAR:AP:ILSZ 26.A
+
+[2025-03-10 11:41:37 CET] [136.725] [-2.0/-30.3 dBFS] [28.3 dB] [-0.5 ppm]
+0A0077 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 5 rseq: 3 poll: 0
+ ACARS:
+  Reassembly: in progress
+  Reg: .7T-VKG Flight: AH1074
+  Mode: 2 Label: H1 Blk id: 4 More: 1 Ack: ! Msg num: F06B
+  Sublabel: M1
+  Message:
+   SBAR:F:ASBAR/PR1380,50,360,136,,60,30,216055,M55,40,P17,P0/FHMTL01,104655,264K,3600,131,M53,223029,459,N,356,44.ETREK,105142,264K,3600,127,M53,208023,459,N,356,38.MADOT,105551,264K,3600,123,M53,194019,459,N
+
+[2025-03-10 11:41:39 CET] [136.775] [1.2/-30.4 dBFS] [31.6 dB] [-1.0 ppm]
+344217 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 2 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xf8
+   X.224 COTP Data Ack:
+    dst_ref: 0x8273
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 7c d9 b5 1d
+
+[2025-03-10 11:41:40 CET] [136.725] [-1.8/-30.4 dBFS] [28.5 dB] [-0.5 ppm]
+0A0077 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 6 rseq: 4 poll: 0
+ ACARS:
+  Reassembly: in progress
+  Reg: .7T-VKG Flight: AH1074
+  Mode: 2 Label: H1 Blk id: 5 More: 1 Ack: ! Msg num: F06C
+  Sublabel: M1
+  Message:
+   ,351,33.MOPEM,110006,264K,3600,120,M53,160015,459,N,351,34.CACHI,110613,264K,3600,114,M53,120021,459,N,346,48.AVLON,111013,264K,3600,111,M53,116030,459,N,338,32.OKRIX,111330,264K,3600,108,M53,117032,459,N,3
+
+[2025-03-10 11:41:41 CET] [136.725] [-0.8/-30.4 dBFS] [29.6 dB] [-0.3 ppm]
+0A0077 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 7 rseq: 5 poll: 0
+ ACARS:
+  Reassembly: in progress
+  Reg: .7T-VKG Flight: AH1074
+  Mode: 2 Label: H1 Blk id: 6 More: 1 Ack: ! Msg num: F06D
+  Sublabel: M1
+  Message:
+   38,26.BRY,111704,264K,3600,105,M53,120029,459,N,337,29.CLM,112038,264K,3600,102,M53,113026,459,N,337,29.UTELA,112110,264K,3600,101,M53,110025,459,N,330,4.KOPOR,112625,300K,2443,100,M35,112025,426,N,330,41.E
+
+[2025-03-10 11:41:43 CET] [136.725] [-1.5/-30.6 dBFS] [29.1 dB] [-0.6 ppm]
+0A0077 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 0 rseq: 6 poll: 0
+ ACARS:
+  Reassembly: in progress
+  Reg: .7T-VKG Flight: AH1074
+  Mode: 2 Label: H1 Blk id: 7 More: 1 Ack: ! Msg num: F06E
+  Sublabel: M1
+  Message:
+   GOZE,112648,300K,2349,100,M34,112023,420,N,049,3.NURMO,112946,300K,1659,99,M20,105018,379,N,032,19.PERON,113046,300K,1436,99,M15,102017,366,N,032,6.SULEX,113149,300K,1207,99,M11,099016,354,N,032,6.CMB,11350
+
+[2025-03-10 11:41:44 CET] [136.725] [-0.7/-30.4 dBFS] [29.7 dB] [-0.7 ppm]
+0A0077 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 1 rseq: 7 poll: 0
+ ACARS:
+  Reassembly: in progress
+  Reg: .7T-VKG Flight: AH1074
+  Mode: 2 Label: H1 Blk id: 8 More: 1 Ack: ! Msg num: F06F
+  Sublabel: M1
+  Message:
+   6,240K,841,98,M4,097011,270,Y,033,16.ASBAR,113807,220K,500,97,P3,097006,236,Y,040,13.OSLID,113955,200K,337,96,P6,097005,211,Y,012,7.OLBUS,114133,210K,200,94,P8,097003,204,Y,348,6.CF26,114204,183K,200,94,P9,
+
+[2025-03-10 11:41:45 CET] [136.975] [-11.8/-30.8 dBFS] [18.9 dB] [4.4 ppm]
+4CA813 (Aircraft, Airborne) -> 10985A (Ground station): Command
+AVLC type: I sseq: 6 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0xc09
+   X.224 COTP Data Ack:
+    dst_ref: 0x82b6
+    rseq: 2 credit: 2
+    Checksum: 06 de
+    Flow control:
+     Acked TPDU nr: 2
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-10 11:41:48 CET] [136.725] [-0.6/-30.4 dBFS] [29.8 dB] [-0.5 ppm]
+0A0077 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 0 poll: 0
+ ACARS:
+  Reassembly: in progress
+  Reg: .7T-VKG Flight: AH1074
+  Mode: 2 Label: H1 Blk id: 9 More: 1 Ack: ! Msg num: F06G
+  Sublabel: M1
+  Message:
+   106010,189,Y,258,2.FF26,114243,158K,200,94,P9,106010,163,Y,258,2.SF26,114326,158K,138,93,P10,106010,162,Y,257,2.RW26,114450,158K,18,92,P13,000000,159,Y,257,4.2000,,,200,,,000000,,Y,257,0.ASBAR,,210K,500,,,0
+
+[2025-03-10 11:41:52 CET] [136.725] [-0.3/-30.4 dBFS] [30.0 dB] [-0.4 ppm]
+0A0077 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 0 poll: 0
+ ACARS:
+  Reassembly: duplicate
+  Reg: .7T-VKG Flight: AH1074
+  Mode: 2 Label: H1 Blk id: 9 More: 1 Ack: ! Msg num: F06G
+  Sublabel: M1
+  Message:
+   106010,189,Y,258,2.FF26,114243,158K,200,94,P9,106010,163,Y,258,2.SF26,114326,158K,138,93,P10,106010,162,Y,257,2.RW26,114450,158K,18,92,P13,000000,159,Y,257,4.2000,,,200,,,000000,,Y,257,0.ASBAR,,210K,500,,,0
+
+[2025-03-10 11:41:53 CET] [136.875] [-10.4/-30.2 dBFS] [19.7 dB] [-1.6 ppm]
+392AF1 (Aircraft, Airborne) -> 23D821 (Ground station): Command
+AVLC type: I sseq: 5 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x131
+   X.224 COTP Data Ack:
+    dst_ref: 0x82cf
+    rseq: 2 credit: 2
+    Flow control:
+     Acked TPDU nr: 2
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: e5 16 d2 13
+
+[2025-03-10 11:41:55 CET] [136.725] [-2.6/-30.4 dBFS] [27.8 dB] [1.4 ppm]
+0A008E (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 3 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 7 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x43
+   X.224 COTP Data Ack:
+    dst_ref: 0x829e
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 8a 75 53 99
+
+[2025-03-10 11:41:55 CET] [136.725] [-0.1/-30.3 dBFS] [30.2 dB] [-0.4 ppm]
+0A0077 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 3 rseq: 1 poll: 0
+ ACARS:
+  Reassembly: complete
+  Reg: .7T-VKG Flight: AH1074
+  Mode: 2 Label: H1 Blk id: 0 More: 0 Ack: ! Msg num: F06H
+  Sublabel: M1
+  Message:
+   POSN43502E004458,MRM01,104133,360,MTL01,104655,ETREK,M54,230035,136/RP:DA:DAAG:AA:LFQQ:CR:OFP005012(26O)..MTL01..ETREK.UM976.MOPEM..CACHI..AVLON.UM976.KOPOR.UN874.NURMO.N874.CMB:A:CMB5D:F:ASBAR:AP:ILSZ 26.ASBAR:F:ASBAR/PR1380,50,360,136,,60,30,216055,M55,40,P17,P0/FHMTL01,104655,264K,3600,131,M53,223029,459,N,356,44.ETREK,105142,264K,3600,127,M53,208023,459,N,356,38.MADOT,105551,264K,3600,123,M53,194019,459,N,351,33.MOPEM,110006,264K,3600,120,M53,160015,459,N,351,34.CACHI,110613,264K,3600,114,M53,120021,459,N,346,48.AVLON,111013,264K,3600,111,M53,116030,459,N,338,32.OKRIX,111330,264K,3600,108,M53,117032,459,N,338,26.BRY,111704,264K,3600,105,M53,120029,459,N,337,29.CLM,112038,264K,3600,102,M53,113026,459,N,337,29.UTELA,112110,264K,3600,101,M53,110025,459,N,330,4.KOPOR,112625,300K,2443,100,M35,112025,426,N,330,41.EGOZE,112648,300K,2349,100,M34,112023,420,N,049,3.NURMO,112946,300K,1659,99,M20,105018,379,N,032,19.PERON,113046,300K,1436,99,M15,102017,366,N,032,6.SULEX,113149,300K,1207,99,M11,099016,354,N,032,6.CMB,113506,240K,841,98,M4,097011,270,Y,033,16.ASBAR,113807,220K,500,97,P3,097006,236,Y,040,13.OSLID,113955,200K,337,96,P6,097005,211,Y,012,7.OLBUS,114133,210K,200,94,P8,097003,204,Y,348,6.CF26,114204,183K,200,94,P9,106010,189,Y,258,2.FF26,114243,158K,200,94,P9,106010,163,Y,258,2.SF26,114326,158K,138,93,P10,106010,162,Y,257,2.RW26,114450,158K,18,92,P13,000000,159,Y,257,4.2000,,,200,,,000000,,Y,257,0.ASBAR,,210K,500,,,000000,,Y,131,15.ASBAR,,220K,500,,,000000,,Y,131,0.LFQQ,,150K,16,,,000000,163,N,257,1/DTLFQQ,26O,92,114450,73E663
+
+[2025-03-10 11:41:55 CET] [136.775] [-9.4/-29.8 dBFS] [20.4 dB] [2.8 ppm]
+4D24C2 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 1 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x4a Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x1b8
+   X.224 COTP Data Ack:
+    dst_ref: 0x895b
+    rseq: 0 credit: 1
+    Flow control:
+     Acked TPDU nr: 0
+     Acked subsequence: 0
+     Acked credit: 1
+    ATN checksum: b4 51 b1 a3
+
+[2025-03-10 11:41:56 CET] [136.875] [-12.1/-30.2 dBFS] [18.0 dB] [-1.6 ppm]
+392AF1 (Aircraft, Airborne) -> 23D821 (Ground station): Command
+AVLC type: I sseq: 5 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x131
+   X.224 COTP Data Ack:
+    dst_ref: 0x82cf
+    rseq: 2 credit: 2
+    Flow control:
+     Acked TPDU nr: 2
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: e5 16 d2 13
+
+[2025-03-10 11:41:59 CET] [136.725] [-1.3/-30.2 dBFS] [28.8 dB] [3.7 ppm]
+4CAFCF (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 7 rseq: 7 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x2b2
+   X.224 COTP Data:
+    dst_ref: 0x82a2
+    sseq: 5 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    Checksum: 95 06
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 5
+      Msg Ref: 5
+      Timestamp: 2025-03-10 10:41:58
+      Logical ACK: required
+     Message data:
+      WILCO
+
+[2025-03-10 11:41:59 CET] [136.725] [-0.3/-30.5 dBFS] [30.2 dB] [-0.7 ppm]
+0A0077 (Aircraft, Airborne) -> 11984A (Ground station): Response
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Response
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   Connection management: 05
+   XID sequencing: seq: 1 retry: 0
+   AVLC specific options: 25
+   Destination airport: LFQQ
+
+[2025-03-10 11:42:00 CET] [136.725] [-0.7/-30.6 dBFS] [29.9 dB] [3.8 ppm]
+4CAFCF (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 3 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x2b3
+   X.224 COTP Data Ack:
+    dst_ref: 0x82a2
+    rseq: 6 credit: 3
+    Checksum: 64 3f
+
+[2025-03-10 11:42:03 CET] [136.725] [-9.1/-30.5 dBFS] [21.4 dB] [2.8 ppm]
+4CA61F (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 3 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 1 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x1e10
+   X.224 COTP Data Ack:
+    dst_ref: 0x8287
+    rseq: 6 credit: 3
+    Checksum: f2 18
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-10 11:42:06 CET] [136.725] [-7.0/-30.0 dBFS] [23.0 dB] [2.6 ppm]
+4CA61F (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 3 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 1 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x1e10
+   X.224 COTP Data Ack:
+    dst_ref: 0x8287
+    rseq: 6 credit: 3
+    Checksum: f2 18
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-10 11:42:09 CET] [136.775] [-8.9/-29.9 dBFS] [21.0 dB] [2.7 ppm]
+471F36 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 2 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 7 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x14b
+   X.224 COTP Data Ack:
+    dst_ref: 0x8959
+    rseq: 2 credit: 2
+    ATN checksum: 11 00 1b 65
+
+[2025-03-10 11:42:10 CET] [136.725] [-2.9/-30.2 dBFS] [27.4 dB] [-0.5 ppm]
+0A0077 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x49
+   X.224 COTP Data Ack:
+    dst_ref: 0x828e
+    rseq: 5 credit: 3
+    Flow control:
+     Acked TPDU nr: 5
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: fc 3d 16 c1
+
+[2025-03-10 11:42:14 CET] [136.725] [-4.6/-30.5 dBFS] [25.9 dB] [-0.4 ppm]
+0A0077 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x49
+   X.224 COTP Data Ack:
+    dst_ref: 0x828e
+    rseq: 5 credit: 3
+    Flow control:
+     Acked TPDU nr: 5
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: fc 3d 16 c1
+
+[2025-03-10 11:42:19 CET] [136.725] [-7.7/-30.1 dBFS] [22.4 dB] [2.1 ppm]
+501C0C (Aircraft, Airborne) -> 1190AA (Ground station): Command
+AVLC type: I sseq: 6 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xb4
+   X.224 COTP Data Ack:
+    dst_ref: 0x82a3
+    rseq: 6 credit: 3
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: fc 97 7d c5
+
+[2025-03-10 11:42:22 CET] [136.725] [-12.9/-29.9 dBFS] [17.1 dB] [2.5 ppm]
+4CA61F (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 4 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 2 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x1e11
+   X.224 COTP Data Ack:
+    dst_ref: 0x8287
+    rseq: 7 credit: 3
+    Checksum: e7 d5
+
+[2025-03-10 11:42:23 CET] [136.725] [-12.4/-30.1 dBFS] [17.7 dB] [2.7 ppm]
+4CA61F (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 5 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 3 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x1e12
+   X.224 COTP Data:
+    dst_ref: 0x8287
+    sseq: 6 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    Checksum: bc a6
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 6
+      Msg Ref: 7
+      Timestamp: 2025-03-10 10:42:21
+      Logical ACK: notRequired
+     Message data:
+      LOGICAL ACKNOWLEDGMENT
+
+[2025-03-10 11:42:27 CET] [136.725] [-6.2/-30.1 dBFS] [24.0 dB] [2.6 ppm]
+4CA61F (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 6 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 4 rseq: 7 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x1e13
+   X.224 COTP Connect Confirm:
+    src_ref: 0x0011 dst_ref: 0xddb3
+    Initial Credit: 1
+    Protocol class: 4
+    Options: 00 (use normal PDU formats)
+    Calling transport selector: 65 6d
+    Called/responding transport selector: 02 02
+    TPDU size (bytes): 1024
+    Checksum: 9b 2c
+    Additional options: 0x00
+    Ack time (ms): 1000
+    Priority: 3
+    Inactivity timer (ms): 360000
+    X.225 Session SPDU: Short Accept
+     X.227 ACSE Associate Response:
+      Application context name: { 1.3.27.3.1 }
+      Associate result: accept
+      ATCDownlinkMessage: <empty PDU>
+
+[2025-03-10 11:42:30 CET] [136.725] [-5.3/-30.9 dBFS] [25.6 dB] [1.9 ppm]
+501C0C (Aircraft, Airborne) -> 11985A (Ground station): Response
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Response
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   Connection management: 05
+   XID sequencing: seq: 1 retry: 0
+   AVLC specific options: 25
+   Destination airport: LEPA
+
+[2025-03-10 11:42:38 CET] [136.725] [-6.9/-30.5 dBFS] [23.6 dB] [4.2 ppm]
+440713 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 5 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xae
+   X.224 COTP Data Ack:
+    dst_ref: 0x829b
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: d0 b5 4d 29
+
+[2025-03-10 11:42:39 CET] [136.725] [-8.4/-30.0 dBFS] [21.6 dB] [2.7 ppm]
+4CA61F (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 7 rseq: 2 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .EI-DWS Flight: FR14BG
+  Mode: 2 Label: 16 Blk id: 7 More: 0 Ack: ! Msg num: M17A
+  Message:
+   104238,,1155, 119,N   .    MMMM.MMM
+
+[2025-03-10 11:42:44 CET] [136.975] [-1.6/-30.4 dBFS] [28.8 dB] [-1.5 ppm]
+3444D1 (Aircraft, Airborne) -> 10985A (Ground station): Command
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Initiation
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 80
+  VDL params:
+   Parameter set ID: V
+   Connection management: 01
+   XID sequencing: seq: 2 retry: 0
+   AVLC specific options: 25
+   Destination airport: LFSB
+   Aircraft location: 43.9N 6.2E 34000 ft
+
+[2025-03-10 11:42:46 CET] [136.775] [-11.7/-30.2 dBFS] [18.4 dB] [3.2 ppm]
+3964EF (Aircraft, Airborne) -> 210DC5 (Ground station): Command
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Initiation
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   XID sequencing: seq: 5 retry: 1
+   Destination airport: LFPO
+   Aircraft location: 42.8N 4.9E 38000 ft
+   Alternate ground stations: 23D825 281CC5
+   AVLC specific options: 24
+   Connection management: 01
+
+[2025-03-10 11:42:51 CET] [136.975] [-11.8/-30.2 dBFS] [18.4 dB] [2.3 ppm]
+40815B (Aircraft, Airborne) -> 10FA5A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x118
+   X.224 COTP Data Ack:
+    dst_ref: 0x829f
+    rseq: 2 credit: 2
+    Flow control:
+     Acked TPDU nr: 2
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 99 24 bf ad
+
+[2025-03-10 11:42:51 CET] [136.975] [-4.8/-30.2 dBFS] [25.4 dB] [-1.4 ppm]
+3444D1 (Aircraft, Airborne) -> 10985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 2 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .EC-MBE Flight: VY19QZ
+  Mode: 2 Label: SA Blk id: 3 More: 0 Ack: ! Msg num: S36A
+  Message:
+   0EV104243V
+  Media Advisory, version 0:
+   Link VHF ACARS established at 10:42:43 UTC
+   Available links: VHF ACARS
+
+[2025-03-10 11:42:54 CET] [136.725] [-7.6/-30.7 dBFS] [23.1 dB] [0.6 ppm]
+4952C2 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 3 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x157
+   X.224 COTP Data Ack:
+    dst_ref: 0x8290
+    rseq: 5 credit: 3
+    Flow control:
+     Acked TPDU nr: 5
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: b2 82 d3 fb
+
+[2025-03-10 11:42:55 CET] [136.975] [-15.5/-30.0 dBFS] [14.5 dB] [2.3 ppm]
+40815B (Aircraft, Airborne) -> 10FA5A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x118
+   X.224 COTP Data Ack:
+    dst_ref: 0x829f
+    rseq: 2 credit: 2
+    Flow control:
+     Acked TPDU nr: 2
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 99 24 bf ad
+
+[2025-03-10 11:42:57 CET] [136.775] [-9.7/-30.3 dBFS] [20.6 dB] [2.9 ppm]
+4D24C2 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 2 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x46 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x1b9
+   X.224 COTP Data Ack:
+    dst_ref: 0x828c
+    rseq: 7 credit: 3
+    Flow control:
+     Acked TPDU nr: 7
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 09 a5 3d 1d
+
+[2025-03-10 11:42:57 CET] [136.725] [-8.1/-30.6 dBFS] [22.5 dB] [2.2 ppm]
+4D2386 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 7 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x11ed
+   X.224 COTP Data Ack:
+    dst_ref: 0x82a4
+    rseq: 4 credit: 3
+    Checksum: 5d 94
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-10 11:43:01 CET] [136.775] [-11.4/-30.3 dBFS] [18.8 dB] [0.1 ppm]
+3991E7 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 0 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x13a
+   X.224 COTP Data Ack:
+    dst_ref: 0x88bd
+    rseq: 2 credit: 2
+    ATN checksum: 95 38 0e e1
+
+[2025-03-10 11:43:02 CET] [136.775] [-10.7/-29.9 dBFS] [19.2 dB] [-0.2 ppm]
+3991E7 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 1 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x13b
+   X.224 COTP Data Ack:
+    dst_ref: 0x88bd
+    rseq: 2 credit: 2
+    Flow control:
+     Acked TPDU nr: 13
+     Acked subsequence: 0
+     Acked credit: 4
+    ATN checksum: 4a 70 ce 84
+
+[2025-03-10 11:43:06 CET] [136.975] [-0.9/-30.5 dBFS] [29.6 dB] [-0.1 ppm]
+392AE6 (Aircraft, Airborne) -> 26CA77 (Ground station): Command
+AVLC type: I sseq: 6 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data:
+   Src NSAP: 47 00 27 41 41 46 52 00 39 2a e6 00 00 53 41 41 42 00 00 01	"G.'AAFR.9*...SAAB..."
+   Dst NSAP: 47 00 27 81 83 46 52 00 01 43 43 01 43 45 53 2d 41 49 58 01	"G.'..FR..CC.CES-AIX."
+   Lifetime: 20.0 sec
+   Flags: SP
+   Segmentation:
+    PDU Id: 0x87
+    Segment offset: 0
+    PDU total length: 122
+    CLNP reasm status: skipped
+   Options:
+    LRef: 0x01
+    QoS maintenance: 0xd6
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Traffic type:
+       Type: ATN operational
+       Category: ATSC
+       Route policy: 0x10
+    Priority: 0x08
+   X.224 COTP Connect Request:
+    src_ref: 0x0035 dst_ref: 0x0000
+    Initial Credit: 1
+    Protocol class: 4
+    Options: 00 (use normal PDU formats)
+    TPDU size (bytes): 1024
+    Called/responding transport selector: 63 6d
+    Calling transport selector: 01
+    Priority: 6
+    Additional options: 0x00
+    Ack time (ms): 1000
+    Inactivity timer (ms): 360000
+    Checksum: 5f 37
+    ATN checksum: 91 64 e1 92
+
+[2025-03-10 11:43:06 CET] [136.975] [-1.3/-30.5 dBFS] [29.2 dB] [-0.0 ppm]
+392AE6 (Aircraft, Airborne) -> 26CA77 (Ground station): Command
+AVLC type: I sseq: 7 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x1 Prio: 8 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x88
+   X.224 COTP Data Ack:
+    dst_ref: 0x82d8
+    rseq: 0 credit: 1
+    ATN checksum: 56 f9 07 3f
+
+[2025-03-10 11:43:06 CET] [136.975] [-1.2/-30.7 dBFS] [29.5 dB] [0.0 ppm]
+392AE6 (Aircraft, Airborne) -> 26CA77 (Ground station): Command
+AVLC type: I sseq: 0 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x1 Prio: 8 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x89
+   X.224 COTP Data:
+    dst_ref: 0x82d8
+    sseq: 0 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    ATN checksum: 5f c5 13 32
+    X.225 Session SPDU: Short Connect
+     X.227 ACSE Associate Request:
+      Application context name: { 1.3.27.3.1 }
+      AP title: { 1.3.27.1.3746534.0 }
+      ATN Context Management - Logon Request:
+       Flight ID: AFR17RB
+       Long TSAP: 41 41 46 52 00 39 2a e6 00 00 53 41 41 42 00 00 01 01	"AAFR.9*...SAAB...."
+       Ground-initiated applications:
+        Application Entity Qualifier: 22
+        Version number: 1
+        AP Address:
+         Long TSAP: 41 41 46 52 00 39 2a e6 00 00 53 41 41 42 00 00 01 16	"AAFR.9*...SAAB...."
+       Departure airport: LFML
+       Destination airport: LFPG
+
+[2025-03-10 11:43:07 CET] [136.975] [-1.8/-30.1 dBFS] [28.3 dB] [-0.2 ppm]
+392AE6 (Aircraft, Airborne) -> 26CA77 (Ground station): Command
+AVLC type: I sseq: 2 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 7 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x1 Prio: 8 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x8a
+   X.224 COTP Data Ack:
+    dst_ref: 0x82d8
+    rseq: 1 credit: 2
+    ATN checksum: c9 99 02 2f
+
+[2025-03-10 11:43:07 CET] [136.975] [-1.8/-30.1 dBFS] [28.3 dB] [-0.2 ppm]
+392AE6 (Aircraft, Airborne) -> 26CA77 (Ground station): Command
+AVLC type: I sseq: 3 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 7 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x1 Prio: 8 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x8b
+   X.224 COTP Disconnect Request:
+    src_ref: 0x0035 dst_ref: 0x82d8
+    Reason: 128 (Normal disconnect)
+    ATN checksum: ab 15 ea 13
+    X.225 disconnect reason: 1 (OK, transport connection not reused)
+
+[2025-03-10 11:43:10 CET] [136.775] [-5.7/-30.6 dBFS] [24.9 dB] [-1.1 ppm]
+344217 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 4 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xfa
+   X.224 COTP Data Ack:
+    dst_ref: 0x8273
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 7c d9 b5 1d
+
+[2025-03-10 11:43:14 CET] [136.775] [-5.5/-30.5 dBFS] [25.0 dB] [-0.9 ppm]
+344217 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 4 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xfa
+   X.224 COTP Data Ack:
+    dst_ref: 0x8273
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 7c d9 b5 1d
+
+[2025-03-10 11:43:15 CET] [136.975] [-11.3/-30.1 dBFS] [18.8 dB] [2.2 ppm]
+4D21F7 (Aircraft, Airborne) -> 10907A (Ground station): Command
+AVLC type: I sseq: 6 rseq: 6 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .9H-QAK Flight: FR454M
+  Mode: 2 Label: 16 Blk id: 6 More: 0 Ack: ! Msg num: M38A
+  Message:
+   104314,12356,1046,  77,N 43.551 E  5.051
+
+[2025-03-10 11:43:17 CET] [136.975] [-9.4/-30.7 dBFS] [21.4 dB] [4.5 ppm]
+4CA813 (Aircraft, Airborne) -> 10985A (Ground station): Command
+AVLC type: I sseq: 7 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0xc0a
+   X.224 COTP Data Ack:
+    dst_ref: 0x82b6
+    rseq: 2 credit: 2
+    Checksum: 06 de
+    Flow control:
+     Acked TPDU nr: 2
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-10 11:43:17 CET] [136.975] [-1.6/-30.9 dBFS] [29.3 dB] [-0.1 ppm]
+392AE6 (Aircraft, Airborne) -> 26CA77 (Ground station): Command
+AVLC type: I sseq: 5 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 7 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x8c
+   X.224 COTP Connect Confirm:
+    src_ref: 0x0036 dst_ref: 0x82da
+    Initial Credit: 1
+    Protocol class: 4
+    Options: 00 (use normal PDU formats)
+    TPDU size (bytes): 512
+    Called/responding transport selector: 16
+    Calling transport selector: 70 6d
+    Priority: 3
+    Ack time (ms): 1000
+    Inactivity timer (ms): 360000
+    Additional options: 0x00
+    ATN checksum: ee 22 97 e1
+    X.225 Session SPDU: Short Accept
+     X.227 ACSE Associate Response:
+      Application context name: { 1.3.27.3.1 }
+      Associate result: accept
+      ATCDownlinkMessage: <empty PDU>
+
+[2025-03-10 11:43:18 CET] [136.975] [-1.6/-30.8 dBFS] [29.3 dB] [-0.1 ppm]
+392AE6 (Aircraft, Airborne) -> 26CA77 (Ground station): Command
+AVLC type: I sseq: 6 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x8d
+   X.224 COTP Data:
+    dst_ref: 0x82da
+    sseq: 0 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    ATN checksum: 00 a7 dc 9c
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 0
+      Timestamp: 2025-03-10 10:43:16
+      Logical ACK: required
+     Message data:
+      CURRENT DATA AUTHORITY
+
+[2025-03-10 11:43:19 CET] [136.975] [-2.6/-30.5 dBFS] [27.9 dB] [-0.1 ppm]
+392AE6 (Aircraft, Airborne) -> 26CA77 (Ground station): Command
+AVLC type: I sseq: 0 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x8e
+   X.224 COTP Data Ack:
+    dst_ref: 0x82da
+    rseq: 1 credit: 2
+    ATN checksum: 0e fd 02 84
+
+[2025-03-10 11:43:20 CET] [136.975] [-2.8/-30.5 dBFS] [27.6 dB] [-0.2 ppm]
+392AE6 (Aircraft, Airborne) -> 26CA77 (Ground station): Command
+AVLC type: I sseq: 1 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x8f
+   X.224 COTP Data Ack:
+    dst_ref: 0x82da
+    rseq: 2 credit: 2
+    ATN checksum: 63 ca 34 2f
+   X.224 COTP Data:
+    dst_ref: 0x82da
+    sseq: 1 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    ATN checksum: 87 44 fc c9
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 1
+      Msg Ref: 2
+      Timestamp: 2025-03-10 10:43:19
+      Logical ACK: notRequired
+     Message data:
+      LOGICAL ACKNOWLEDGMENT
+
+[2025-03-10 11:43:23 CET] [136.725] [-7.9/-30.7 dBFS] [22.8 dB] [0.6 ppm]
+4952C2 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 5 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 7 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x159
+   X.224 COTP Data Ack:
+    dst_ref: 0x8962
+    rseq: 0 credit: 1
+    ATN checksum: 29 cd 91 67
+
+[2025-03-10 11:43:23 CET] [136.725] [-7.9/-30.7 dBFS] [22.8 dB] [0.6 ppm]
+4952C2 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 6 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x15a
+   X.224 COTP Data Ack:
+    dst_ref: 0x8962
+    rseq: 0 credit: 1
+    Flow control:
+     Acked TPDU nr: 0
+     Acked subsequence: 0
+     Acked credit: 1
+    ATN checksum: 24 f9 b4 7d
+
+[2025-03-10 11:43:24 CET] [136.725] [-5.5/-30.7 dBFS] [25.2 dB] [0.9 ppm]
+0A008E (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 4 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x44
+   X.224 COTP Data Ack:
+    dst_ref: 0x829e
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 8a 75 53 99
+
+[2025-03-10 11:43:28 CET] [136.775] [-10.5/-29.9 dBFS] [19.4 dB] [3.5 ppm]
+3964EF (Aircraft, Airborne) -> 210DC5 (Ground station): Command
+AVLC type: I sseq: 4 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x938
+   X.224 COTP Data Ack:
+    dst_ref: 0x82ae
+    rseq: 6 credit: 3
+    Checksum: 2f b4
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-10 11:43:32 CET] [136.975] [-10.0/-30.5 dBFS] [20.4 dB] [2.3 ppm]
+40815B (Aircraft, Airborne) -> 10FA5A (Ground station): Command
+AVLC type: I sseq: 4 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x11a
+   X.224 COTP Data:
+    dst_ref: 0x829f
+    sseq: 3 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    ATN checksum: 9a 0f cc 4b
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 3
+      Msg Ref: 3
+      Timestamp: 2025-03-10 10:43:31
+      Logical ACK: required
+     Message data:
+      WILCO
+
+[2025-03-10 11:43:32 CET] [136.725] [1.0/-30.6 dBFS] [31.6 dB] [3.4 ppm]
+4CAFCF (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 4 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x2b4
+   X.224 COTP Data Ack:
+    dst_ref: 0x82a2
+    rseq: 6 credit: 3
+    Checksum: 6b 84
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-10 11:43:33 CET] [136.975] [-10.5/-30.8 dBFS] [20.3 dB] [2.3 ppm]
+40815B (Aircraft, Airborne) -> 10FA5A (Ground station): Command
+AVLC type: I sseq: 5 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x11b
+   X.224 COTP Data Ack:
+    dst_ref: 0x829f
+    rseq: 4 credit: 3
+    ATN checksum: a8 c2 d0 9b
+
+[2025-03-10 11:43:40 CET] [136.725] [-10.8/-30.1 dBFS] [19.3 dB] [-0.6 ppm]
+0A0077 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 4 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x4a
+   X.224 COTP Data Ack:
+    dst_ref: 0x828e
+    rseq: 5 credit: 3
+    Flow control:
+     Acked TPDU nr: 5
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: fc 3d 16 c1
+
+[2025-03-10 11:43:44 CET] [136.725] [-10.0/-30.2 dBFS] [20.2 dB] [-0.6 ppm]
+0A0077 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 4 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x4a
+   X.224 COTP Data Ack:
+    dst_ref: 0x828e
+    rseq: 5 credit: 3
+    Flow control:
+     Acked TPDU nr: 5
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: fc 3d 16 c1
+
+[2025-03-10 11:43:51 CET] [136.725] [0.4/-30.5 dBFS] [30.9 dB] [1.7 ppm]
+501C0C (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xb5
+   X.224 COTP Data Ack:
+    dst_ref: 0x82a3
+    rseq: 6 credit: 3
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: fc 97 7d c5
+
+[2025-03-10 11:43:55 CET] [136.775] [-10.5/-29.6 dBFS] [19.1 dB] [2.8 ppm]
+4D24C2 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 3 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 7 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x4a Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x1ba
+   X.224 COTP Data Ack:
+    dst_ref: 0x895b
+    rseq: 0 credit: 1
+    ATN checksum: af 7a bb 15
+
+[2025-03-10 11:43:56 CET] [136.775] [-10.5/-29.6 dBFS] [19.1 dB] [2.7 ppm]
+4D24C2 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 4 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x4a Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x1bb
+   X.224 COTP Data Ack:
+    dst_ref: 0x895b
+    rseq: 0 credit: 1
+    Flow control:
+     Acked TPDU nr: 0
+     Acked subsequence: 0
+     Acked credit: 1
+    ATN checksum: b4 51 b1 a3
+
+[2025-03-10 11:43:56 CET] [136.725] [-9.6/-30.1 dBFS] [20.6 dB] [2.5 ppm]
+4CA61F (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 1 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 6 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x1e15
+   X.224 COTP Data Ack:
+    dst_ref: 0x8287
+    rseq: 7 credit: 3
+    Checksum: f4 14
+    Flow control:
+     Acked TPDU nr: 7
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-10 11:43:59 CET] [136.775] [-10.1/-30.4 dBFS] [20.3 dB] [2.7 ppm]
+4D24C2 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 3 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 7 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x4a Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x1ba
+   X.224 COTP Data Ack:
+    dst_ref: 0x895b
+    rseq: 0 credit: 1
+    ATN checksum: af 7a bb 15
+
+[2025-03-10 11:43:59 CET] [136.775] [-10.1/-30.2 dBFS] [20.1 dB] [2.9 ppm]
+4D24C2 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 4 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x4a Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x1bb
+   X.224 COTP Data Ack:
+    dst_ref: 0x895b
+    rseq: 0 credit: 1
+    Flow control:
+     Acked TPDU nr: 0
+     Acked subsequence: 0
+     Acked credit: 1
+    ATN checksum: b4 51 b1 a3
+
+[2025-03-10 11:44:10 CET] [136.725] [-4.4/-30.3 dBFS] [25.9 dB] [4.5 ppm]
+440713 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 7 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xb0
+   X.224 COTP Data Ack:
+    dst_ref: 0x829b
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: d0 b5 4d 29
+
+[2025-03-10 11:44:19 CET] [136.725] [-12.3/-30.2 dBFS] [18.0 dB] [4.8 ppm]
+4CA813 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Initiation
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 84 80
+  VDL params:
+   Parameter set ID: V
+   XID sequencing: seq: 2 retry: 0
+   Destination airport: LEVC
+   Aircraft location: 43.9N 7.0E 0 ft
+   Alternate ground stations: 11984A
+   AVLC specific options: 24
+   Connection management: 01
+
+[2025-03-10 11:44:26 CET] [136.725] [-7.4/-30.2 dBFS] [22.8 dB] [0.7 ppm]
+0A008E (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 7 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x46
+   X.224 COTP Data Ack:
+    dst_ref: 0x829e
+    rseq: 5 credit: 3
+    ATN checksum: 67 47 84 6a
+
+[2025-03-10 11:44:26 CET] [136.725] [-7.4/-30.2 dBFS] [22.8 dB] [0.7 ppm]
+0A008E (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 0 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x47
+   X.224 COTP Data:
+    dst_ref: 0x829e
+    sseq: 4 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    ATN checksum: 8e f7 91 5d
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 4
+      Msg Ref: 5
+      Timestamp: 2025-03-10 10:44:24
+      Logical ACK: notRequired
+     Message data:
+      LOGICAL ACKNOWLEDGMENT
+
+[2025-03-10 11:44:26 CET] [136.725] [-7.3/-30.1 dBFS] [22.8 dB] [0.5 ppm]
+4952C2 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 7 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 7 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x15b
+   X.224 COTP Data Ack:
+    dst_ref: 0x8290
+    rseq: 5 credit: 3
+    Flow control:
+     Acked TPDU nr: 5
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: b2 82 d3 fb
+
+[2025-03-10 11:44:32 CET] [136.725] [-10.3/-30.2 dBFS] [19.9 dB] [2.7 ppm]
+4CA61F (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 7 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x1e16
+   X.224 COTP Data Ack:
+    dst_ref: 0xddb3
+    rseq: 0 credit: 1
+    Checksum: c1 d4
+    Flow control:
+     Acked TPDU nr: 0
+     Acked subsequence: 0
+     Acked credit: 10
+
+[2025-03-10 11:44:37 CET] [136.725] [-7.2/-30.4 dBFS] [23.3 dB] [0.8 ppm]
+0A008E (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 1 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x48
+   X.224 COTP Data:
+    dst_ref: 0x829e
+    sseq: 5 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    ATN checksum: ec 36 9d 73
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 5
+      Msg Ref: 5
+      Timestamp: 2025-03-10 10:44:36
+      Logical ACK: required
+     Message data:
+      WILCO
+
+[2025-03-10 11:44:39 CET] [136.725] [-8.1/-30.7 dBFS] [22.7 dB] [0.7 ppm]
+0A008E (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 3 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x49
+   X.224 COTP Data Ack:
+    dst_ref: 0x829e
+    rseq: 6 credit: 3
+    ATN checksum: bc 14 b6 15
+
+[2025-03-10 11:44:42 CET] [136.775] [-9.3/-30.2 dBFS] [20.9 dB] [-1.2 ppm]
+344217 (Aircraft, Airborne) -> 233925 (Ground station): Command
+AVLC type: I sseq: 5 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xfb
+   X.224 COTP Data Ack:
+    dst_ref: 0x8273
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 7c d9 b5 1d
+
+[2025-03-10 11:44:42 CET] [136.725] [-8.1/-30.4 dBFS] [22.3 dB] [0.8 ppm]
+0A008E (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 3 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x49
+   X.224 COTP Data Ack:
+    dst_ref: 0x829e
+    rseq: 6 credit: 3
+    ATN checksum: bc 14 b6 15
+
+[2025-03-10 11:44:43 CET] [136.725] [-7.4/-30.5 dBFS] [23.1 dB] [2.9 ppm]
+4CAE92 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 1 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 7 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x3c
+   X.224 COTP Data Ack:
+    dst_ref: 0x82af
+    rseq: 2 credit: 2
+    Checksum: 29 c2
+    Flow control:
+     Acked TPDU nr: 2
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-10 11:44:43 CET] [136.725] [-2.5/-30.4 dBFS] [27.9 dB] [4.3 ppm]
+440713 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 0 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xb1
+   X.224 COTP Data Ack:
+    dst_ref: 0x829b
+    rseq: 5 credit: 3
+    ATN checksum: 17 87 24 ea
+   X.224 COTP Data:
+    dst_ref: 0x829b
+    sseq: 4 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    ATN checksum: 79 30 19 17
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 4
+      Msg Ref: 5
+      Timestamp: 2025-03-10 10:44:41
+      Logical ACK: notRequired
+     Message data:
+      LOGICAL ACKNOWLEDGMENT
+
+[2025-03-10 11:44:46 CET] [136.725] [-3.0/-30.3 dBFS] [27.4 dB] [4.1 ppm]
+440713 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 1 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xb2
+   X.224 COTP Data:
+    dst_ref: 0x829b
+    sseq: 5 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    ATN checksum: 79 37 52 d5
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 5
+      Msg Ref: 5
+      Timestamp: 2025-03-10 10:44:45
+      Logical ACK: required
+     Message data:
+      WILCO
+
+[2025-03-10 11:44:48 CET] [136.725] [-2.1/-30.5 dBFS] [28.4 dB] [4.3 ppm]
+440713 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xb3
+   X.224 COTP Data Ack:
+    dst_ref: 0x829b
+    rseq: 6 credit: 3
+    ATN checksum: 6c 54 56 95
+
+[2025-03-10 11:44:49 CET] [136.725] [-12.8/-30.6 dBFS] [17.8 dB] [4.7 ppm]
+4CA813 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0xc0c
+   X.224 COTP Data Ack:
+    dst_ref: 0x82b6
+    rseq: 2 credit: 2
+    Checksum: 06 de
+    Flow control:
+     Acked TPDU nr: 2
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-10 11:44:53 CET] [136.975] [-10.6/-30.2 dBFS] [19.6 dB] [-0.2 ppm]
+392AE6 (Aircraft, Airborne) -> 26CA77 (Ground station): Command
+AVLC type: I sseq: 3 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 7 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x90
+   X.224 COTP Data Ack:
+    dst_ref: 0x82da
+    rseq: 2 credit: 2
+    Flow control:
+     Acked TPDU nr: 2
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 36 43 5f 09
+
+[2025-03-10 11:44:59 CET] [136.975] [-2.5/-30.8 dBFS] [28.3 dB] [3.2 ppm]
+406668 (Aircraft, Airborne) -> 10907A (Ground station): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x45 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xa4
+   X.224 COTP Data Ack:
+    dst_ref: 0x82bc
+    rseq: 2 credit: 2
+    Flow control:
+     Acked TPDU nr: 2
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 68 45 b8 b5
+
+[2025-03-10 11:45:00 CET] [136.775] [-7.9/-30.4 dBFS] [22.4 dB] [3.2 ppm]
+3964EF (Aircraft, Airborne) -> 210DC5 (Ground station): Command
+AVLC type: I sseq: 5 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x939
+   X.224 COTP Data Ack:
+    dst_ref: 0x82ae
+    rseq: 6 credit: 3
+    Checksum: 2f b4
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-10 11:45:04 CET] [136.725] [0.8/-30.3 dBFS] [31.1 dB] [2.8 ppm]
+4CAFCF (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 5 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x2b5
+   X.224 COTP Data Ack:
+    dst_ref: 0x82a2
+    rseq: 6 credit: 3
+    Checksum: 6b 84
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-10 11:45:04 CET] [136.975] [-14.3/-30.6 dBFS] [16.3 dB] [2.0 ppm]
+40815B (Aircraft, Airborne) -> 10FA5A (Ground station): Command
+AVLC type: I sseq: 7 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 7 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x11d
+   X.224 COTP Data Ack:
+    dst_ref: 0x829f
+    rseq: 4 credit: 3
+    Flow control:
+     Acked TPDU nr: 4
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 44 13 b3 1b
+
+[2025-03-10 11:45:15 CET] [136.725] [-12.4/-30.4 dBFS] [18.0 dB] [0.5 ppm]
+4952C2 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 0 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x15c
+   X.224 COTP Data Ack:
+    dst_ref: 0x8290
+    rseq: 6 credit: 3
+    ATN checksum: d5 31 2e 81
+   X.224 COTP Data:
+    dst_ref: 0x8290
+    sseq: 5 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    ATN checksum: 39 3e 74 6e
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 5
+      Msg Ref: 7
+      Timestamp: 2025-03-10 10:45:15
+      Logical ACK: notRequired
+     Message data:
+      LOGICAL ACKNOWLEDGMENT
+
+[2025-03-10 11:45:19 CET] [136.725] [-2.5/-30.7 dBFS] [28.2 dB] [1.4 ppm]
+501C0C (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 3 rseq: 3 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .9A-ABC Flight: AFAF01
+  Mode: 2 Label: B9 Blk id: 4 More: 0 Ack: ! Msg num: L00A
+  Message:
+   /LEPA.TI2/024LEPAAC8BA
+
+[2025-03-10 11:45:21 CET] [136.725] [-1.6/-30.3 dBFS] [28.7 dB] [1.5 ppm]
+501C0C (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 5 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xb6
+   X.224 COTP Data Ack:
+    dst_ref: 0x82a3
+    rseq: 6 credit: 3
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: fc 97 7d c5
+
+[2025-03-10 11:45:23 CET] [136.725] [-12.2/-30.2 dBFS] [17.9 dB] [0.4 ppm]
+4952C2 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 1 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x15d
+   X.224 COTP Data:
+    dst_ref: 0x8290
+    sseq: 6 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    ATN checksum: cc 91 b4 67
+    X.227 ACSE Release Response:
+     Reason: normal
+     CPDLC Downlink Message:
+      Header:
+       Msg ID: 6
+       Msg Ref: 7
+       Timestamp: 2025-03-10 10:45:18
+       Logical ACK: notRequired
+      Message data:
+       WILCO
+
+[2025-03-10 11:45:23 CET] [136.725] [-12.4/-30.3 dBFS] [18.0 dB] [0.3 ppm]
+4952C2 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x15e
+   X.224 COTP Data:
+    dst_ref: 0x8962
+    sseq: 0 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    ATN checksum: 13 7d 21 ee
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 0
+      Timestamp: 2025-03-10 10:45:18
+      Logical ACK: required
+     Message data:
+      CURRENT DATA AUTHORITY
+
+[2025-03-10 11:45:29 CET] [136.975] [-11.7/-30.4 dBFS] [18.7 dB] [2.6 ppm]
+4CA61F (Aircraft, Airborne) -> 10985A (Ground station): Command
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Initiation
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 84 80
+  VDL params:
+   Parameter set ID: V
+   XID sequencing: seq: 5 retry: 0
+   Destination airport: EDLV
+   Aircraft location: 0.0N 0.0E 0 ft
+   Alternate ground stations: 10952A
+   AVLC specific options: 24
+   Connection management: 01
+
+[2025-03-10 11:45:34 CET] [136.975] [-12.4/-30.5 dBFS] [18.1 dB] [2.6 ppm]
+4CA61F (Aircraft, Airborne) -> 10985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x1e18
+   X.224 COTP Data Ack:
+    dst_ref: 0xddb3
+    rseq: 0 credit: 1
+    Checksum: c1 d4
+    Flow control:
+     Acked TPDU nr: 0
+     Acked subsequence: 0
+     Acked credit: 10
+
+[2025-03-10 11:45:41 CET] [136.725] [-13.7/-30.4 dBFS] [16.7 dB] [1.8 ppm]
+4D2386 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 1 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 7 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x11ef
+   X.224 COTP Data Ack:
+    dst_ref: 0x82a4
+    rseq: 5 credit: 3
+    Checksum: 5e 44
+
+[2025-03-10 11:45:41 CET] [136.725] [-12.6/-30.7 dBFS] [18.1 dB] [2.0 ppm]
+4D2386 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 7 rseq: 7 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x11f0
+   X.224 COTP Data:
+    dst_ref: 0x82a4
+    sseq: 4 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    Checksum: 48 70
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 4
+      Msg Ref: 5
+      Timestamp: 2025-03-10 10:45:39
+      Logical ACK: notRequired
+     Message data:
+      LOGICAL ACKNOWLEDGMENT
+
+[2025-03-10 11:46:03 CET] [136.775] [-10.1/-30.3 dBFS] [20.1 dB] [2.1 ppm]
+39DE40 (Aircraft, Airborne) -> 26E206 (Ground station): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x10f
+   X.224 COTP Data Ack:
+    dst_ref: 0x82be
+    rseq: 2 credit: 2
+    Flow control:
+     Acked TPDU nr: 2
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 79 85 d1 08
+
+[2025-03-10 11:46:06 CET] [136.725] [-10.6/-30.1 dBFS] [19.5 dB] [6.5 ppm]
+4405B6 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 4 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x8a
+   X.224 COTP Data Ack:
+    dst_ref: 0x82b5
+    rseq: 0 credit: 1
+    Flow control:
+     Acked TPDU nr: 0
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 8e 58 8b d8
+
+[2025-03-10 11:46:09 CET] [136.775] [-12.7/-30.2 dBFS] [17.4 dB] [1.9 ppm]
+39DE40 (Aircraft, Airborne) -> 26E206 (Ground station): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x10f
+   X.224 COTP Data Ack:
+    dst_ref: 0x82be
+    rseq: 2 credit: 2
+    Flow control:
+     Acked TPDU nr: 2
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 79 85 d1 08
+
+[2025-03-10 11:46:10 CET] [136.725] [-4.5/-30.3 dBFS] [25.8 dB] [0.6 ppm]
+0A008E (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 4 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 7 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x4a
+   X.224 COTP Data Ack:
+    dst_ref: 0x829e
+    rseq: 6 credit: 3
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 80 aa 1a a3
+
+[2025-03-10 11:46:11 CET] [136.975] [-12.5/-30.6 dBFS] [18.0 dB] [0.3 ppm]
+4952C2 (Aircraft, Airborne) -> 10985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x163
+   X.224 COTP Data Ack:
+    dst_ref: 0x8962
+    rseq: 3 credit: 2
+    ATN checksum: 47 07 f0 ac
+   X.224 COTP Data:
+    dst_ref: 0x8962
+    sseq: 2 req_of_ack: 0 EoT: 1
+    COTP reasm status: skipped
+    ATN checksum: 6d bb 51 44
+    CPDLC Downlink Message:
+     Header:
+      Msg ID: 2
+      Msg Ref: 2
+      Timestamp: 2025-03-10 10:46:11
+      Logical ACK: notRequired
+     Message data:
+      LOGICAL ACKNOWLEDGMENT
+
+[2025-03-10 11:46:13 CET] [136.775] [-10.6/-30.0 dBFS] [19.3 dB] [2.2 ppm]
+39DE40 (Aircraft, Airborne) -> 26E206 (Ground station): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x10f
+   X.224 COTP Data Ack:
+    dst_ref: 0x82be
+    rseq: 2 credit: 2
+    Flow control:
+     Acked TPDU nr: 2
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 79 85 d1 08
+
+[2025-03-10 11:46:14 CET] [136.725] [-6.4/-30.0 dBFS] [23.6 dB] [2.9 ppm]
+4CAE92 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 7 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x42 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x3d
+   X.224 COTP Data Ack:
+    dst_ref: 0x82af
+    rseq: 2 credit: 2
+    Checksum: 29 c2
+    Flow control:
+     Acked TPDU nr: 2
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-10 11:46:16 CET] [136.775] [-10.3/-30.7 dBFS] [20.4 dB] [2.1 ppm]
+39DE40 (Aircraft, Airborne) -> 26E206 (Ground station): Command
+AVLC type: I sseq: 3 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x110
+   X.224 COTP Disconnect Request:
+    src_ref: 0x0038 dst_ref: 0x0045
+    Reason: 133 (Protocol error)
+    ATN checksum: 27 a9 b2 28
+
+[2025-03-10 11:46:18 CET] [136.775] [-11.6/-30.5 dBFS] [18.9 dB] [1.9 ppm]
+39DE40 (Aircraft, Airborne) -> 26E206 (Ground station): Command
+AVLC type: I sseq: 3 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x110
+   X.224 COTP Disconnect Request:
+    src_ref: 0x0038 dst_ref: 0x0045
+    Reason: 133 (Protocol error)
+    ATN checksum: 27 a9 b2 28
+
+[2025-03-10 11:46:19 CET] [136.725] [-1.9/-30.9 dBFS] [29.0 dB] [4.2 ppm]
+440713 (Aircraft, Airborne) -> 11984A (Ground station): Command
+AVLC type: I sseq: 3 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 7 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x43 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xb4
+   X.224 COTP Data Ack:
+    dst_ref: 0x829b
+    rseq: 6 credit: 3
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: c6 ea 14 33
+
+[2025-03-10 11:46:21 CET] [136.775] [-11.2/-30.1 dBFS] [18.9 dB] [2.1 ppm]
+39DE40 (Aircraft, Airborne) -> 26E206 (Ground station): Command
+AVLC type: I sseq: 3 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x110
+   X.224 COTP Disconnect Request:
+    src_ref: 0x0038 dst_ref: 0x0045
+    Reason: 133 (Protocol error)
+    ATN checksum: 27 a9 b2 28
+
+[2025-03-10 11:46:21 CET] [136.725] [-6.8/-30.8 dBFS] [23.9 dB] [4.7 ppm]
+4CA813 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 3 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 254 sseq: 1 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0xc0d
+   X.224 COTP Data Ack:
+    dst_ref: 0x82b6
+    rseq: 2 credit: 2
+    Checksum: 06 de
+    Flow control:
+     Acked TPDU nr: 2
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-10 11:46:27 CET] [136.725] [-7.7/-30.4 dBFS] [22.7 dB] [6.6 ppm]
+4405B6 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 5 rseq: 2 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .OE-LQP Flight: EC76VV
+  Mode: 2 Label: 8D Blk id: 0 More: 0 Ack: ! Msg num: M21A
+  Message:
+   0006,15,----,---,----,---,0006,1107,LEBL,LFMN
+   OFFLOAD OF CHCKD-IN BAG
+   DUE TO PAX NO SHOW
+   
+   
+
+[2025-03-10 11:46:31 CET] [136.975] [-2.3/-30.5 dBFS] [28.2 dB] [3.2 ppm]
+406668 (Aircraft, Airborne) -> 10907A (Ground station): Command
+AVLC type: I sseq: 1 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 7 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x45 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0xa5
+   X.224 COTP Data Ack:
+    dst_ref: 0x82bc
+    rseq: 2 credit: 2
+    Flow control:
+     Acked TPDU nr: 2
+     Acked subsequence: 0
+     Acked credit: 15
+    ATN checksum: 68 45 b8 b5
+
+[2025-03-10 11:46:32 CET] [136.775] [0.3/-29.8 dBFS] [30.2 dB] [2.8 ppm]
+3964EF (Aircraft, Airborne) -> 210DC5 (Ground station): Command
+AVLC type: I sseq: 6 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x41 Prio: 11 Flags: 0xc0
+   Lifetime: 50.0 sec
+   PDU Id: 0x93a
+   X.224 COTP Data Ack:
+    dst_ref: 0x82ae
+    rseq: 6 credit: 3
+    Checksum: 2f b4
+    Flow control:
+     Acked TPDU nr: 6
+     Acked subsequence: 0
+     Acked credit: 15
+
+[2025-03-10 11:46:32 CET] [136.725] [-7.8/-30.5 dBFS] [22.7 dB] [6.8 ppm]
+4405B6 (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 6 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x0 Prio: 11 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x8b
+   X.224 COTP Data Ack:
+    dst_ref: 0x89d0
+    rseq: 3 credit: 2
+    Flow control:
+     Acked TPDU nr: 2
+     Acked subsequence: 0
+     Acked credit: 10
+    ATN checksum: ba 60 28 cb
+
+[2025-03-10 11:46:35 CET] [136.725] [-8.2/-30.5 dBFS] [22.3 dB] [0.7 ppm]
+0A008E (Aircraft, Airborne) -> 11985A (Ground station): Command
+AVLC type: I sseq: 5 rseq: 4 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: .7T-VKO Flight: AH1000
+  Mode: 2 Label: 80 Blk id: 4 More: 0 Ack: ! Msg num: M10A
+  Message:
+   3M01 OPNORM 1000/10 DAAG/LFPG .7T-VKO
+
